@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>TestDaPackage</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
+		<members>CTPHARMA__Activity__c.Cost__c</members>
+		<members>CTPHARMA__Activity__c.Number_of_prescriptions__c</members>
+		<members>CTPHARMA__Activity__c.Partialy_Controled_asthma_number__c</members>
+		<members>CTPHARMA__Activity__c.StartRDLink__c</members>
+		<members>CTPHARMA__Activity__c.Uncontroled_asthma_number__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>CTPHARMA__Activity__c-Mobile 1%3A1 Visit Layout</members>
+		<members>CTPHARMA__Activity__c-Mobile Asthma Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>CTPHARMA__Activity__c.Demo</members>
+		<members>CTPHARMA__Activity__c.Mobile_Demo</members>
+		<members>CTPHARMA__Activity__c.Mobile_Visit_KAM</members>
+		<name>RecordType</name>
+	</types>
+	<version>46.0</version>
+</Package>
