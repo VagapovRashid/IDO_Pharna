@@ -40,7 +40,6 @@ newApp.clm__PUSHHUBName__c = 'appstore.ctmobile';
 newApp.clm__ReferenceObjectAPIName__c = 'CTPHARMA__Reference__c';
 newApp.clm__IsWeekSwitchShowed__c = true;
 newApp.clm__EnableStartFinish__c = true;
-newApp.clm__SupportEmail__c = false;
 newApp.clm__Theme__c = 'rgb(102,192,196)';
 newApp.clm__UpdateDateFields__c = false;
 newApp.clm__VisibleHourRange__c = '(9,19)';
