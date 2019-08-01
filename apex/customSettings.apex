@@ -30,7 +30,6 @@ newApp.clm__GeoTraceInterval__c = 0;
 newApp.clm__GoogleMapsAndroidAPIKey__c = null;
 newApp.clm__GoogleMapsAPIKey__c = 'AIzaSyC2WS7Ll5W2SRHjfVOYr9kAj3XJ2Fvf6Ns';
 newApp.clm__GoogleMapsJSKey__c = 'AIzaSyAJIfOBNIG8DuGTJ6apUcg21Awz0ylSKIY';
-newApp.clm__ImageQuality__c = null;
 newApp.clm__EnableLockUnlock__c = false;
 newApp.clm__MetadataLastModifiedDate__c = System.now();
 newApp.clm__IsPasscodeEnabled__c = false;
