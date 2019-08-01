@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AccountAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(ShippingCity)), ShippingCity &amp;&quot; &quot;, &quot;&quot;)&amp;IF( NOT(ISBLANK(ShippingStreet)), ShippingStreet, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
