@@ -24,5 +24,9 @@
 		<members>CTPHARMA__Activity__c.Mobile_Visit_KAM</members>
 		<name>RecordType</name>
 	</types>
+	<types>
+        <members>CTPHARMA__Activity__c.MobileMainCompactLayout</members>
+        <name>CompactLayout</name>
+    </types>
 	<version>46.0</version>
 </Package>
