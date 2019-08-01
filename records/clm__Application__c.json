@@ -1,0 +1,53 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Application__c",
+                "referenceId": "clm__Application__cRef1"
+            },
+            "clm__IsActive__c": false,
+            "Name": "Asthma",
+            "clm__APPID__c": "alvEn",
+            "clm__IsAvailableForRD__c": false,
+            "clm__DeviceOrientation__c": "Horizontal",
+            "clm__IsFeedbackCommentsEnabled__c": false,
+            "FirstSlideID__c": "a0e2000000X5cihAAB",
+            "clm__ForcedLoadDate__c": "2017-01-14",
+            "clm__ScreenshotID__c": "a0e2000000X5cihAAB",
+            "clm__SlideEffect__c": "None",
+            "clm__IsSlideReorderEnabled__c": true,
+            "clm__SwipeGestureType__c": "Two finger swipe",
+            "clm__IsSlideClicksTrackingEnabled__c": true,
+            "clm__IsSlideDurationTrackingEnabled__c": true,
+            "clm__IsSlideLikesTrackingEnabled__c": true,
+            "clm__IsSlideNavigationTrackingEnabled__c": true,
+            "clm__IsSlideViewsTrackingEnabled__c": true,
+            "clm__IsTotalDurationTrackingEnabled__c": true,
+            "clm__Version__c": 6.9
+        },
+        {
+            "attributes": {
+                "type": "clm__Application__c",
+                "referenceId": "clm__Application__cRef2"
+            },
+            "clm__IsActive__c": true,
+            "Name": "Medical Devices (en)",
+            "clm__IsAvailableForRD__c": false,
+            "clm__DeviceOrientation__c": "Horizontal",
+            "clm__IsFeedbackCommentsEnabled__c": false,
+            "FirstSlideID__c": "a0e2000000XFFyIAAX",
+            "clm__ForcedLoadDate__c": "2017-01-14",
+            "clm__ScreenshotID__c": "a0e2000000XFFyIAAX",
+            "clm__SlideEffect__c": "None",
+            "clm__IsSlideReorderEnabled__c": true,
+            "clm__SwipeGestureType__c": "Two finger swipe",
+            "clm__IsSlideClicksTrackingEnabled__c": true,
+            "clm__IsSlideDurationTrackingEnabled__c": true,
+            "clm__IsSlideLikesTrackingEnabled__c": true,
+            "clm__IsSlideNavigationTrackingEnabled__c": true,
+            "clm__IsSlideViewsTrackingEnabled__c": true,
+            "clm__IsTotalDurationTrackingEnabled__c": true,
+            "clm__Version__c": 5.6
+        }
+    ]
+}
