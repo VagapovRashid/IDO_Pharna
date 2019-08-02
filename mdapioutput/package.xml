@@ -34,5 +34,14 @@
         <members>GitContent</members>
         <name>RemoteSiteSetting</name>
     </types>
+	<types>
+        <members>LicenseType__c</members>
+        <members>License__c</members>
+        <members>ProductLicense__c</members>
+        <members>SampleDrop__c</members>
+        <members>StoreProduct__c</members>
+        <members>Store__c</members>
+        <name>CustomObject</name>
+    </types>
 	<version>46.0</version>
 </Package>
