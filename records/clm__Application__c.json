@@ -7,7 +7,6 @@
             },
             "clm__IsActive__c": false,
             "Name": "Asthma",
-            "clm__APPID__c": "alvEn",
             "clm__IsAvailableForRD__c": false,
             "clm__DeviceOrientation__c": "Horizontal",
             "clm__IsFeedbackCommentsEnabled__c": false,
