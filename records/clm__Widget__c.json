@@ -1,0 +1,508 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef1"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Stat",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef4",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef4",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef2"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Medication lowers intensity of symptoms for patients with allergic asthma",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef9",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef9",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef3"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "General scheme of <br>ICS spreading",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef6",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef6",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef4"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Dosage and prescription",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef7",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef7",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef5"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Start slide",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef3",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef3",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef6"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "The ratio of large and small airways",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef5",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef5",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef7"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Asthma control levels",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef1",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef1",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef8"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Asthma Inflammation",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef2",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef2",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef9"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Medication mechanism of action",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef8",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef8",
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef10"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<table>\r\n                        <tbody>\r\n                            <tr>\r\n                                <th><strong>For a doctor:</strong></th>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Amount of tools</td>\r\n                                <td>5</td>\r\n                                <td>5</td>\r\n                                <td>5</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Transfer of tools</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Pistol</td>\r\n                                <td>3-functions (direct)</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Hose for turbine</td>\r\n                                <td>with fiberoptics</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th>Scaler</td>\r\n                                <td>LM-ProPower UltraLED, with hose and LED backlight</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Chair of patient</strong></td>\r\n                                <td>6 positions, motorized headrest</td>\r\n                                <td>electromechanical with headrest</td>\r\n                                <td>4 positions, electrohydraulic</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Hydraulic unit</strong></td>\r\n                                <td>spittoon, glass, removable, with sensor for automatic filling cup water</td>\r\n                                <td>with rotary (90&deg;) ceramic spittoon</td>\r\n                                <td>with rotary spittoon bowl flushing system and cup filling</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Separator</strong></td>\r\n                                <td>Duerr CS1</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>For an assistant:</strong></td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Dust extraction</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Saliva ejector</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th>Pistol</td>\r\n                                <td>3-or 6-functions</td>\r\n                                <td>3 tubing</td>\r\n                                <td>3 tubing</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>Chair of doctor</strong></td>\r\n                                <td>Anatomat Plus</td>\r\n                                <td>with abdominal emphasis</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                        </tbody>\r\n                        </table>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef14",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef14",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef11"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Dental units",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef19",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef1",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef12"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<table>\r\n                        <tbody>\r\n                            <tr>\r\n                                <th><strong>For a doctor:</strong></th>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Amount of tools</td>\r\n                                <td>6</td>\r\n                                <td>5</td>\r\n                                <td>5</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Transfer of tools</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Pistol</td>\r\n\t\t\t\t\t\t\t\t<td>6-functions (direct)</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                            </tr>\r\n                            <tr>\r\n\t\t\t\t\t\t\t\t<th>Hose for turbine</td>\r\n                                <td>with fiberoptics</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n\t\t\t\t\t\t\t\t<th>Scaler</td>\r\n                                <td>LM-ProPower UltraLED, with hose and LED backlight</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n\t\t\t\t\t\t\t\t<th><strong>Chair of patient</strong></td>\r\n                                <td>7 positions, with rotatably</td>\r\n                                <td>electromechanical with headrest</td>\r\n                                <td>4 positions, electrohydraulic</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n\t\t\t\t\t\t\t\t<th><strong>Hydraulic unit</strong></td>\r\n                                <td>spittoon, glass, removable, with sensor for automatic filling cup water</td>\r\n                                <td>with rotary (90&deg;) ceramic spittoon</td>\r\n                                <td>with rotary spittoon bowl flushing system and cup filling</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Separator</strong></td>\r\n                                <td>Duerr CS1</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>For an assistant:</strong></td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Dust extraction</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Saliva ejector</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th>Pistol</td>\r\n                                <td>3-or 6-functions</td>\r\n                                <td>3 tubing</td>\r\n                                <td>3 tubing</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>Chair of doctor</strong></td>\r\n                                <td>&#8212;</td>\r\n                                <td>with abdominal emphasis</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                        </tbody>\r\n                        </table>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef15",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef14",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef13"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Request",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef13",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef15",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef14"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<table>\r\n                        <tbody>\r\n                            <tr>\r\n                                <th><strong>For a doctor:</strong></th>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Amount of tools</td>\r\n                                <td>6</td>\r\n                                <td>5</td>\r\n                                <td>5</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Transfer of tools</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                                <td>top</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Pistol</td>\r\n                                <td>6-functions (direct)</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                                <td>3 tubing Midwest 4</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Hose for turbine</td>\r\n                                <td>with fiberoptics</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th>Scaler</td>\r\n                                <td>LM-ProPower UltraLED, with hose and LED backlight</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Chair of patient</strong></td>\r\n                                <td>7 positions, with rotatably</td>\r\n                                <td>electromechanical with headrest</td>\r\n                                <td>4 positions, electrohydraulic</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Hydraulic unit</strong></td>\r\n                                <td>spittoon, glass, removable, with sensor for automatic filling cup water</td>\r\n                                <td>with rotary (90&deg;) ceramic spittoon</td>\r\n                                <td>with rotary spittoon bowl flushing system and cup filling</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th><strong>Separator</strong></td>\r\n                                <td>Duerr CS1</td>\r\n                                <td>&#8212;</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>For an assistant:</strong></td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                                <td>&nbsp;</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Dust extraction</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Saliva ejector</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                                <td>y</td>\r\n                            </tr>\r\n                            <tr class=\"bordered\">\r\n                                <th>Pistol</td>\r\n                                <td>3-or 6-functions</td>\r\n                                <td>3 tubing</td>\r\n                                <td>3 tubing</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <th><strong>Chair of doctor</strong></td>\r\n                                <td>&#8212;</td>\r\n                                <td>with abdominal emphasis</td>\r\n                                <td>&#8212;</td>\r\n                            </tr>\r\n                        </tbody>\r\n                        </table>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef17",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef14",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef15"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Features",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef18",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef16",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef16"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Compact i Touch",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef21",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef10",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef17"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<a href=\"#slide11\" class=\"save_btn\">Back</a>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef17",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef11",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef18"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<a href=\"#slide31\" class=\"save_btn\">Back</a>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef14",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef11",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef19"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<a href=\"#slide21\" class=\"save_btn\">Back</a>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef15",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef11",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef20"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Sovereign Classic",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef20",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef13",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef21"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/sovereign.jpg\" width=\"100\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>SOVEREIGN</strong>€ 8 450</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/dental.jpg\" width=\"162\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>DENTAL DE100</strong>€ 6 100</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/a-dec.jpg\" width=\"126\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>A-DEC 200</strong>€ 8 400</h5>\r\n                </div>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef17",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef18",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef22"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/compact_i_touch.jpg\" width=\"95\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>COMPACT I TOUCH</strong>€ 7 300</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/dental.jpg\" width=\"162\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>DENTAL DE100</strong>€ 6 100</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/a-dec.jpg\" width=\"126\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>A-DEC 200</strong>€ 8 400</h5>\r\n                </div>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef14",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef18",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef23"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/sovereign_classic.jpg\" width=\"80\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>SOVEREIGN CLASSIC</strong>€ 8 100</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/dental.jpg\" width=\"162\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>DENTAL DE100</strong>€ 6 100</h5>\r\n                </div>\r\n                \r\n            \t<div class=\"flex_column-1\">\r\n                \t<div class=\"visual\">\r\n                    \t<img src=\"images/new_line/a-dec.jpg\" width=\"126\" alt=\"\">\r\n                    </div>\r\n                \t<h5><strong>A-DEC 200</strong>€ 8 400</h5>\r\n                </div>",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef15",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef18",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef24"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Sovereign",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef12",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef19",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef25"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Medical devices",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef10",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef21",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef26"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Handpieces",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef11",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef12",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef27"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "Features",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef22",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef22",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef28"
+            },
+            "clm__IsActive__c": true,
+            "clm__Autoplay__c": false,
+            "clm__Base64Code__c": "VG8gYmUsIG9yIG5vdCB0byBiZTogdGhhdCBpcyB0aGUgcXVlc3Rpb246IFdoZXRoZXIgdGlzIG5vYmxlciBpbiB0aGUgbWluZCB0byBzdWZmZXIgVGhlIHNsaW5ncyBhbmQgYXJyb3dzIG9mIG91dHJhZ2VvdXMgZm9ydHVuZSwgT3IgdG8gdGFrZSBhcm1zIGFnYWluc3QgYSBzZWEgb2YgdHJvdWJsZXMsIEFuZCBieSBvcHBvc2luZyBlbmQgdGhlbT8=",
+            "clm__Code__c": "New models",
+            "clm__CustomStyle__c": false,
+            "clm__Data__c": "To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them?",
+            "clm__ShowLegend__c": false,
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text",
+            "clm__SlideId__c": "@clm__Slide__cRef16",
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef20",
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        }
+    ]
+}

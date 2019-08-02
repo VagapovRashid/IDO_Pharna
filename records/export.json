@@ -22,5 +22,21 @@
         "files": [
             "clm__Slide__c.json"
         ]
+    },
+    {
+        "sobject": "clm__Placeholder__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Placeholder__c.json"
+        ]
+    },
+    {
+        "sobject": "clm__Widget__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Widget__c.json"
+        ]
     }
 ]

@@ -1,0 +1,312 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef1"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Mechamism : title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef8",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef2"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Patients: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef5",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef3"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Start slide: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef1",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef4"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Stat: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef2",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef5"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Lens:title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef7",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef6"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "ICS spreading: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef4",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef7"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Dosage: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef9",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef8"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Medication mechanism: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef6",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef9"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "Patient_allergic_asthma: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef3",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef10"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "compact_touch: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef11",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef11"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "compare: back",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef16",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef12"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "handpiece: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef10",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef13"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "sovereign_classic: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef14",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef14"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "compare: table",
+            "clm__Position__c": 3,
+            "clm__TemplateId__c": "@clm__Template__cRef16",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef15"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "order: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef20",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef16"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "compact_features: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef13",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef17"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "dental_units: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef15",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef18"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "compare: table_head",
+            "clm__Position__c": 2,
+            "clm__TemplateId__c": "@clm__Template__cRef16",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef19"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "sovereign: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef17",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef20"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "dental_equip: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef19",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef21"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "home: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef12",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef22"
+            },
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "Name": "sovereign_features: title",
+            "clm__Position__c": 1,
+            "clm__TemplateId__c": "@clm__Template__cRef18",
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
+        }
+    ]
+}
