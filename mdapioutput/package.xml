@@ -35,8 +35,10 @@
         <name>RemoteSiteSetting</name>
     </types>
 	<types>
+        <members>Address__c</members>
         <members>LicenseType__c</members>
         <members>License__c</members>
+        <members>Lot__c</members>
         <members>ProductLicense__c</members>
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
