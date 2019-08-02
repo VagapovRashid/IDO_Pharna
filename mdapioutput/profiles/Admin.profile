@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutAssignments>
-        <layout>Account-Institution</layout>
-        <recordType>Account.Institution</recordType>
+        <layout>Mobile Asthma Layout</layout>
+        <recordType>CTPHARMA__Activity__c.Demo</recordType>
     </layoutAssignments>
 </Profile>
