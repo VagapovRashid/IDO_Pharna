@@ -6,6 +6,37 @@
 	</types>
 	<types>
         <members>Account.AccountAddress__c</members>
+		<members>Account.Account_Status__c</members>
+        <members>Account.Annual_admissions__c</members>
+        <members>Account.Beds__c</members>
+        <members>Account.Call_Frequency__c</members>
+        <members>Account.Customer_Account__c</members>
+        <members>Account.Facility_Speciality__c</members>
+        <members>Account.Identified_for_My_Targets__c</members>
+        <members>Account.Occupancy_Rate__c</members>
+        <members>Account.Open_Optt_Value__c</members>
+        <members>Account.Phisicians__c</members>
+        <members>Account.Projected_Sales_This_Year__c</members>
+        <members>Account.Projected_Units_this_Year__c</members>
+        <members>Account.Region__c</members>
+        <members>Account.Sales_LTD__c</members>
+        <members>Account.Sales_Order_Trend__c</members>
+        <members>Account.Sales_to_Projected__c</members>
+        <members>Account.Units_YTD__c</members>
+        <members>Account.Units_to_Projected__c</members>
+        <members>Case.Enquiry__c</members>
+        <members>Case.Sub_type__c</members>
+        <members>Contact.Education__c</members>
+        <members>Contact.LicenseExpirationDate__c</members>
+        <members>Contact.License__c</members>
+        <members>Contact.License_status__c</members>
+        <members>Contact.Main_Location__c</members>
+        <members>Contact.SecondaryLocation__c</members>
+        <members>Contact.StateLicenceID__c</members>
+        <members>Contact.State_License__c</members>
+        <members>Contact.State__c</members>
+        <members>Contact.TypeOfDoctor__c</members>
+        <members>Contact.TypeofQualification__c</members>
         <members>CTPHARMA__Activity__c.AccountAddress__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
 		<members>CTPHARMA__Activity__c.Cost__c</members>
@@ -13,6 +44,10 @@
 		<members>CTPHARMA__Activity__c.Partialy_Controled_asthma_number__c</members>
 		<members>CTPHARMA__Activity__c.StartRDLink__c</members>
 		<members>CTPHARMA__Activity__c.Uncontroled_asthma_number__c</members>
+        <members>Opportunity.Account__c</members>
+        <members>Opportunity.Contact__c</members>
+        <members>Opportunity.Expected_Product_Amount__c</members>
+        <members>Opportunity.Score__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
