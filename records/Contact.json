@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "Name": "Wendy Berkowitz",
+            "Title": "Nursing Home Physician",
+            "Email": "wberkowitz@example.com",
+            "Phone": "(212) 562-4141",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "Name": "*Lauren Boyle",
+            "Title": "Physician",
+            "Email": "lboyle@example.com",
+            "Phone": "(415) 555-9303",
+            "Birthdate": "1978-07-07",
+            "TypeOfDoctor__c": "GP's",
+            "TypeofQualification__c": "Doctor",
+            "Education__c": "UC Davis School of Medicine",
+            "CTPHARMA__DivisionAlphaCategory__c": "Category 1",
+            "CTPHARMA__DivisionBetaCategory__c": "Category 2",
+            "State__c": "CA",
+            "StateLicenceID__c": "145264",
+            "State_License__c": 145264,
+            "Main_Location__c": "*United Facility Network",
+            "SecondaryLocation__c": "Advanced Urology",
+            "License__c": "Cardiologist",
+            "License_status__c": "Valid",
+            "LicenseExpirationDate__c": "2020-07-16",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}

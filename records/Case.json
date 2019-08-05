@@ -1,0 +1,47 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef1"
+            },
+            "Subject": "New trial indication",
+            "Priority": "Medium",
+            "Origin": "Email",
+            "Reason": "User didn't attend training",
+            "Status": "New",
+            "AccountId": "@AccountRef1",
+            "ContactId": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef2"
+            },
+            "Subject": "NUEDEXTA for Alzheimer’s Patients",
+            "Description": "What is the proper dosage that I would prescribe an Alzheimer’s patient who is already taking Oxybutynin and Metformin?",
+            "Enquiry__c": "NUEDEXTA Inquiry",
+            "Type": "Medical Enquiry",
+            "Sub_type__c": "Setup and Usage",
+            "Priority": "Medium",
+            "Origin": "Web",
+            "Status": "New",
+            "AccountId": "@AccountRef1",
+            "ContactId": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef3"
+            },
+            "Subject": "NUEDEXTA Use for Alzheimer's Patients",
+            "Description": "What is the proper dosage that I would prescribe an Alzheimer's patient who is already taking Oxybutynin and Metformin?",
+            "Priority": "Medium",
+            "Origin": "Web",
+            "Reason": "Complex functionality",
+            "Status": "Closed",
+            "AccountId": "@AccountRef1",
+            "ContactId": "@ContactRef2"
+        }
+    ]
+}

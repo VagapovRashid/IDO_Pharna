@@ -38,5 +38,37 @@
         "files": [
             "clm__Widget__c.json"
         ]
+    },
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Contact.json"
+        ]
+    },
+    {
+        "sobject": "Case",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Case.json"
+        ]
+    },
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Opportunity.json"
+        ]
     }
 ]
