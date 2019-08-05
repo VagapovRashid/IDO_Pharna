@@ -6,7 +6,6 @@
                 "referenceId": "AccountRef1"
             },
             "Name": "*United Facility Network",
-            "Customer_Account__c": 200000002,
             "Type": "national chains",
             "Region__c": "Central",
             "Phone": "(800) 667-6389",
