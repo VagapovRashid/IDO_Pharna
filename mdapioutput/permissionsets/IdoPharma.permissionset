@@ -155,6 +155,20 @@
         <field>Contact.TypeofQualification__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Score__c</field>
+        <readable>true</readable>
     <hasActivationRequired>false</hasActivationRequired>
     <label>IdoPharma</label>
     <objectPermissions>
