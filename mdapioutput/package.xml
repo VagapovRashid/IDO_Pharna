@@ -75,6 +75,7 @@
         <members>License__c</members>
         <members>Lot__c</members>
         <members>ProductLicense__c</members>
+        <members>ProductLimit__c</members>
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
         <members>Store__c</members>
