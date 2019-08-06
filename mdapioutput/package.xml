@@ -56,9 +56,9 @@
 		<name>Layout</name>
 	</types>
 	<types>
-		<members>CTPHARMA__Activity__c.Demo</members>
-		<members>CTPHARMA__Activity__c.Mobile_Demo</members>
+		<members>CTPHARMA__Activity__c.Visit_KAM</members>
 		<members>CTPHARMA__Activity__c.Mobile_Visit_KAM</members>
+		<members>CTPHARMA__Activity__c.Mobile_Visit</members>
 		<name>RecordType</name>
 	</types>
 	<types>
