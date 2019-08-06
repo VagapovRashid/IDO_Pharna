@@ -84,5 +84,9 @@
         <members>Admin</members>
         <name>Profile</name>
     </types>
+	<types>
+		<name>PermissionSet</name>
+		<members>IdoPharma</members>
+	</types>
 	<version>46.0</version>
 </Package>
