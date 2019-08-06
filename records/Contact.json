@@ -5,7 +5,8 @@
                 "type": "Contact",
                 "referenceId": "ContactRef1"
             },
-            "Name": "Wendy Berkowitz",
+            "FirstName": "Wendy",
+            "LastName": "Berkowitz",
             "Title": "Nursing Home Physician",
             "Email": "wberkowitz@example.com",
             "Phone": "(212) 562-4141",
@@ -16,7 +17,8 @@
                 "type": "Contact",
                 "referenceId": "ContactRef2"
             },
-            "Name": "*Lauren Boyle",
+            "FirstName": "*Lauren",
+            "LastName": "Boyle",
             "Title": "Physician",
             "Email": "lboyle@example.com",
             "Phone": "(415) 555-9303",

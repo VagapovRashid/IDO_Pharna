@@ -27,7 +27,17 @@
             "Projected_Units_this_Year__c": 400,
             "Units_YTD__c": 310,
             "Units_to_Projected__c": 78,
-            "Sales_Order_Trend__c": "Decrease"
+            "Sales_Order_Trend__c": "Decrease",
+            "BillingCity": "San Francisco",
+            "BillingCountry": "United States",
+            "BillingPostalCode": "94104",
+            "BillingState": "CA",
+            "BillingStreet": "1 Market St",
+            "ShippingCity": "San Francisco",
+            "ShippingCountry": "United States",
+            "ShippingPostalCode": "94104",
+            "ShippingState": "CA",
+            "ShippingStreet": "1 Market St",
         }
     ]
 }
