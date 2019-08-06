@@ -27,27 +27,7 @@
             "Projected_Units_this_Year__c": 400,
             "Units_YTD__c": 310,
             "Units_to_Projected__c": 78,
-            "Sales_Order_Trend__c": "Decrease",
-            "BillingAddress": {
-                "city": "San Francisco",
-                "country": "United States",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "94104",
-                "state": "CA",
-                "street": "1 Market St"
-            },
-            "ShippingAddress": {
-                "city": "San Francisco",
-                "country": "United States",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "94104",
-                "state": "CA",
-                "street": "1 Market St"
-            }
+            "Sales_Order_Trend__c": "Decrease"
         }
     ]
 }
