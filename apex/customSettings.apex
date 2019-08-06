@@ -76,3 +76,21 @@ settings[1].clm__SObject__c = 'CTPHARMA__Activity__c';
 settings[1].Name = 'New Visit: KAM';
 
 upsert settings;
+
+clm__MobileActivityDataCustomization__c newActivityCustomization = clm__MobileActivityDataCustomization__c.getOrgDefaults();
+newActivityCustomization.Name = 'Add Samples';
+newActivityCustomization.clm__CustomFieldsLayout__c = 'PharmaProductId__c,Quantity__c';
+newActivityCustomization.clm__DataObjectName__c = 'SampleDrop__c';
+newActivityCustomization.clm__IsDrilldownEnabled__c = true;
+newActivityCustomization.clm__IsRecordAdditionAllowed__c = true;
+newActivityCustomization.clm__IsRecordDeleteAllowed__c = true;
+newActivityCustomization.clm__IsRelatedListLayout__c = false;
+newActivityCustomization.clm__LookupFieldAPI__c = 'ActivityId__c';
+newActivityCustomization.clm__OrgProfileId__c = UserInfo.getOrganizationId();
+newActivityCustomization.clm__ParentObject__c = 'CTPHARMA__Activity__c';
+newActivityCustomization.clm__ParentObjectRecordType__c = 'Visit';
+newActivityCustomization.clm__ReadonlyAttribute__c = 'false,false';
+newActivityCustomization.clm__RequiredAttribute__c = 'false,false';
+newActivityCustomization.clm__isApplicationLaunchEnabled__c = false;
+newActivityCustomization.clm__TabLabel__c = 'Add Samples';
+upsert newActivityCustomization;
