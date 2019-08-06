@@ -88,21 +88,21 @@
         <unique>false</unique>
     </fields>
     <recordTypes>
-        <fullName>Demo</fullName>
+        <fullName>Visit_KAM</fullName>
         <active>true</active>
         <compactLayoutAssignment>MobileMainCompactLayout</compactLayoutAssignment>
-        <label>Demo</label>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Mobile_Demo</fullName>
-        <active>false</active>
-        <compactLayoutAssignment>MobileMainCompactLayout</compactLayoutAssignment>
-        <label>Mobile Demo</label>
+        <label>Visit KAM</label>
     </recordTypes>
     <recordTypes>
         <fullName>Mobile_Visit_KAM</fullName>
         <active>false</active>
         <compactLayoutAssignment>MobileMainCompactLayout</compactLayoutAssignment>
         <label>Mobile Visit KAM</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Mobile_Visit</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>MobileMainCompactLayout</compactLayoutAssignment>
+        <label>Mobile Visit</label>
     </recordTypes>
 </CustomObject>
