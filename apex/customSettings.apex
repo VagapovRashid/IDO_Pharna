@@ -77,20 +77,93 @@ settings[1].Name = 'New Visit: KAM';
 
 upsert settings;
 
-clm__MobileActivityDataCustomization__c newActivityCustomization = clm__MobileActivityDataCustomization__c.getOrgDefaults();
-newActivityCustomization.Name = 'Add Samples';
-newActivityCustomization.clm__CustomFieldsLayout__c = 'PharmaProductId__c,Quantity__c';
-newActivityCustomization.clm__DataObjectName__c = 'SampleDrop__c';
-newActivityCustomization.clm__IsDrilldownEnabled__c = true;
-newActivityCustomization.clm__IsRecordAdditionAllowed__c = true;
-newActivityCustomization.clm__IsRecordDeleteAllowed__c = true;
-newActivityCustomization.clm__IsRelatedListLayout__c = false;
-newActivityCustomization.clm__LookupFieldAPI__c = 'ActivityId__c';
-newActivityCustomization.clm__OrgProfileId__c = UserInfo.getOrganizationId();
-newActivityCustomization.clm__ParentObject__c = 'CTPHARMA__Activity__c';
-newActivityCustomization.clm__ParentObjectRecordType__c = 'Visit';
-newActivityCustomization.clm__ReadonlyAttribute__c = 'false,false';
-newActivityCustomization.clm__RequiredAttribute__c = 'false,false';
-newActivityCustomization.clm__isApplicationLaunchEnabled__c = false;
-newActivityCustomization.clm__TabLabel__c = 'Add Samples';
-upsert newActivityCustomization;
+List<clm__MobileActivityDataCustomization__c> activityCustomizations = new List<clm__MobileActivityDataCustomization__c>();
+List<clm__MobileActivityDataCustomization__c> newActivityCustomizations = [SELECT Name, clm__CustomFieldsLayout__c, clm__DataObjectName__c, clm__IsDrilldownEnabled__c, clm__IsRecordAdditionAllowed__c, clm__IsRecordDeleteAllowed__c, clm__IsRelatedListLayout__c, clm__LookupFieldAPI__c, clm__OrgProfileId__c, clm__ParentObject__c, clm__ParentObjectRecordType__c, clm__ReadonlyAttribute__c, clm__RequiredAttribute__c, clm__isApplicationLaunchEnabled__c, clm__TabLabel__c FROM clm__MobileActivityDataCustomization__c WHERE Name = 'Add Samples'];
+if(newActivityCustomizations.size() == 0){
+    activityCustomizations.add(new clm__MobileActivityDataCustomization__c());
+} else{
+    activityCustomizations.add(newActivityCustomizations[0]);
+}
+activityCustomizations[0].Name = 'Add Samples';
+activityCustomizations[0].clm__CustomFieldsLayout__c = 'PharmaProductId__c,Quantity__c';
+activityCustomizations[0].clm__DataObjectName__c = 'SampleDrop__c';
+activityCustomizations[0].clm__IsDrilldownEnabled__c = true;
+activityCustomizations[0].clm__IsRecordAdditionAllowed__c = true;
+activityCustomizations[0].clm__IsRecordDeleteAllowed__c = true;
+activityCustomizations[0].clm__IsRelatedListLayout__c = false;
+activityCustomizations[0].clm__LookupFieldAPI__c = 'ActivityId__c';
+activityCustomizations[0].clm__OrgProfileId__c = UserInfo.getOrganizationId();
+activityCustomizations[0].clm__ParentObject__c = 'CTPHARMA__Activity__c';
+activityCustomizations[0].clm__ParentObjectRecordType__c = 'Visit';
+activityCustomizations[0].clm__ReadonlyAttribute__c = 'false,false';
+activityCustomizations[0].clm__RequiredAttribute__c = 'false,false';
+activityCustomizations[0].clm__isApplicationLaunchEnabled__c = false;
+activityCustomizations[0].clm__TabLabel__c = 'Add Samples';
+
+newActivityCustomizations = [SELECT Name, clm__CustomFieldsLayout__c, clm__DataObjectName__c, clm__IsDrilldownEnabled__c, clm__IsRecordAdditionAllowed__c, clm__IsRecordDeleteAllowed__c, clm__IsRelatedListLayout__c, clm__LookupFieldAPI__c, clm__OrgProfileId__c, clm__ParentObject__c, clm__ParentObjectRecordType__c, clm__ReadonlyAttribute__c, clm__RequiredAttribute__c, clm__isApplicationLaunchEnabled__c, clm__TabLabel__c FROM clm__MobileActivityDataCustomization__c WHERE Name = 'Visit KAM: inventory_med device'];
+if(newActivityCustomizations.size() == 0){
+    activityCustomizations.add(new clm__MobileActivityDataCustomization__c());
+} else{
+    activityCustomizations.add(newActivityCustomizations[0]);
+}
+activityCustomizations[1].Name = 'Visit KAM: inventory_med device';
+activityCustomizations[1].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,Assessment__c,Diagnostic__c,Repair__c,After_sales_service__c';
+activityCustomizations[1].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[1].clm__IsDrilldownEnabled__c = false;
+activityCustomizations[1].clm__IsRecordAdditionAllowed__c = true;
+activityCustomizations[1].clm__IsRecordDeleteAllowed__c = true;
+activityCustomizations[1].clm__IsRelatedListLayout__c = false;
+activityCustomizations[1].clm__LookupFieldAPI__c = 'CTPHARMA__ActivityId__c';
+activityCustomizations[1].clm__OrgProfileId__c = UserInfo.getOrganizationId();
+activityCustomizations[1].clm__ParentObject__c = 'CTPHARMA__Activity__c';
+activityCustomizations[1].clm__ParentObjectRecordType__c = 'Visit_KAM';
+activityCustomizations[1].clm__ReadonlyAttribute__c = 'false,false,false,false,false';
+activityCustomizations[1].clm__RequiredAttribute__c = 'false,false,false,false,false';
+activityCustomizations[1].clm__isApplicationLaunchEnabled__c = false;
+activityCustomizations[1].clm__TabLabel__c = 'Inventories';
+
+newActivityCustomizations = [SELECT Name, clm__CustomFieldsLayout__c, clm__DataObjectName__c, clm__IsDrilldownEnabled__c, clm__IsRecordAdditionAllowed__c, clm__IsRecordDeleteAllowed__c, clm__IsRelatedListLayout__c, clm__LookupFieldAPI__c, clm__OrgProfileId__c, clm__ParentObject__c, clm__ParentObjectRecordType__c, clm__ReadonlyAttribute__c, clm__RequiredAttribute__c, clm__isApplicationLaunchEnabled__c, clm__TabLabel__c FROM clm__MobileActivityDataCustomization__c WHERE Name = 'Visit KAM: new models_med devices'];
+if(newActivityCustomizations.size() == 0){
+    activityCustomizations.add(new clm__MobileActivityDataCustomization__c());
+} else{
+    activityCustomizations.add(newActivityCustomizations[0]);
+}
+activityCustomizations[2].Name = 'Visit KAM: new models_med devices';
+activityCustomizations[2].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,Number_of_new_models__c';
+activityCustomizations[2].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[2].clm__IsDrilldownEnabled__c = false;
+activityCustomizations[2].clm__IsRecordAdditionAllowed__c = true;
+activityCustomizations[2].clm__IsRecordDeleteAllowed__c = true;
+activityCustomizations[2].clm__IsRelatedListLayout__c = false;
+activityCustomizations[2].clm__LookupFieldAPI__c = 'CTPHARMA__ActivityId__c';
+activityCustomizations[2].clm__OrgProfileId__c = UserInfo.getOrganizationId();
+activityCustomizations[2].clm__ParentObject__c = 'CTPHARMA__Activity__c';
+activityCustomizations[2].clm__ParentObjectRecordType__c = 'Visit_KAM';
+activityCustomizations[2].clm__ReadonlyAttribute__c = 'false,false';
+activityCustomizations[2].clm__RequiredAttribute__c = 'false,false';
+activityCustomizations[2].clm__isApplicationLaunchEnabled__c = false;
+activityCustomizations[2].clm__TabLabel__c = 'New Models';
+
+newActivityCustomizations = [SELECT Name, clm__CustomFieldsLayout__c, clm__DataObjectName__c, clm__IsDrilldownEnabled__c, clm__IsRecordAdditionAllowed__c, clm__IsRecordDeleteAllowed__c, clm__IsRelatedListLayout__c, clm__LookupFieldAPI__c, clm__OrgProfileId__c, clm__ParentObject__c, clm__ParentObjectRecordType__c, clm__ReadonlyAttribute__c, clm__RequiredAttribute__c, clm__isApplicationLaunchEnabled__c, clm__TabLabel__c FROM clm__MobileActivityDataCustomization__c WHERE Name = 'Visit KAM: order supplies'];
+if(newActivityCustomizations.size() == 0){
+    activityCustomizations.add(new clm__MobileActivityDataCustomization__c());
+} else{
+    activityCustomizations.add(newActivityCustomizations[0]);
+}
+activityCustomizations[3].Name = 'Visit KAM: order supplies';
+activityCustomizations[3].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,number_of_terminals__c';
+activityCustomizations[3].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[3].clm__IsDrilldownEnabled__c = false;
+activityCustomizations[3].clm__IsRecordAdditionAllowed__c = true;
+activityCustomizations[3].clm__IsRecordDeleteAllowed__c = true;
+activityCustomizations[3].clm__IsRelatedListLayout__c = false;
+activityCustomizations[3].clm__LookupFieldAPI__c = 'CTPHARMA__ActivityId__c';
+activityCustomizations[3].clm__OrgProfileId__c = UserInfo.getOrganizationId();
+activityCustomizations[3].clm__ParentObject__c = 'CTPHARMA__Activity__c';
+activityCustomizations[3].clm__ParentObjectRecordType__c = 'Visit_KAM';
+activityCustomizations[3].clm__ReadonlyAttribute__c = 'false,false';
+activityCustomizations[3].clm__RequiredAttribute__c = 'false,false';
+activityCustomizations[3].clm__isApplicationLaunchEnabled__c = false;
+activityCustomizations[3].clm__TabLabel__c = 'Consumables';
+
+upsert activityCustomizations;

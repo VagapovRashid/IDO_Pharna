@@ -4,4 +4,8 @@
         <layout>CTPHARMA__Activity__c-Mobile Asthma Layout</layout>
         <recordType>CTPHARMA__Activity__c.Mobile_Visit</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>CTPHARMA__Activity__c-Mobile Asthma Layout</layout>
+        <recordType>CTPHARMA__Activity__c.Mobile_Visit_KAM</recordType>
+    </layoutAssignments>
 </Profile>
