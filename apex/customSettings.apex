@@ -109,6 +109,7 @@ if(newActivityCustomizations.size() == 0){
 activityCustomizations[1].Name = 'Visit KAM: inventory_med device';
 activityCustomizations[1].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,Assessment__c,Diagnostic__c,Repair__c,After_sales_service__c';
 activityCustomizations[1].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[1].clm__DataRecordType__c = 'inventory';
 activityCustomizations[1].clm__IsDrilldownEnabled__c = false;
 activityCustomizations[1].clm__IsRecordAdditionAllowed__c = true;
 activityCustomizations[1].clm__IsRecordDeleteAllowed__c = true;
@@ -131,6 +132,7 @@ if(newActivityCustomizations.size() == 0){
 activityCustomizations[2].Name = 'Visit KAM: new models_med devices';
 activityCustomizations[2].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,Number_of_new_models__c';
 activityCustomizations[2].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[2].clm__DataRecordType__c = 'new_models';
 activityCustomizations[2].clm__IsDrilldownEnabled__c = false;
 activityCustomizations[2].clm__IsRecordAdditionAllowed__c = true;
 activityCustomizations[2].clm__IsRecordDeleteAllowed__c = true;
@@ -153,6 +155,7 @@ if(newActivityCustomizations.size() == 0){
 activityCustomizations[3].Name = 'Visit KAM: order supplies';
 activityCustomizations[3].clm__CustomFieldsLayout__c = 'CTPHARMA__ProductId__c,number_of_terminals__c';
 activityCustomizations[3].clm__DataObjectName__c = 'CTPHARMA__ActivityData__c';
+activityCustomizations[3].clm__DataRecordType__c = 'order_supplies';
 activityCustomizations[3].clm__IsDrilldownEnabled__c = false;
 activityCustomizations[3].clm__IsRecordAdditionAllowed__c = true;
 activityCustomizations[3].clm__IsRecordDeleteAllowed__c = true;
