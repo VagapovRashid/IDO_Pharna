@@ -44,6 +44,12 @@
 		<members>CTPHARMA__Activity__c.Partialy_Controled_asthma_number__c</members>
 		<members>CTPHARMA__Activity__c.StartRDLink__c</members>
 		<members>CTPHARMA__Activity__c.Uncontroled_asthma_number__c</members>
+		<members>CTPHARMA__ActivityData__c.After_sales_service__c</members>
+        <members>CTPHARMA__ActivityData__c.Assessment__c</members>
+        <members>CTPHARMA__ActivityData__c.Diagnostic__c</members>
+        <members>CTPHARMA__ActivityData__c.Number_of_new_models__c</members>
+        <members>CTPHARMA__ActivityData__c.Repair__c</members>
+        <members>CTPHARMA__ActivityData__c.number_of_terminals__c</members>
         <members>Opportunity.Account__c</members>
         <members>Opportunity.Contact__c</members>
         <members>Opportunity.Expected_Product_Amount__c</members>
