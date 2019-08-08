@@ -80,6 +80,14 @@
         ]
     },
     {
+        "sobject": "LicenseType__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LicenseType__c.json"
+        ]
+    },
+    {
         "sobject": "ProductLicense__c",
         "saveRefs": true,
         "resolveRefs": true,
@@ -93,14 +101,6 @@
         "resolveRefs": true,
         "files": [
             "License__c.json"
-        ]
-    },
-    {
-        "sobject": "LicenseType__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "LicenseType__c.json"
         ]
     }
 ]
