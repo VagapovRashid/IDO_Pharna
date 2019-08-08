@@ -1,0 +1,25 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LicenseType__c",
+                "referenceId": "LicenseType__cRef1"
+            },
+            "Name": "NY"
+        },
+        {
+            "attributes": {
+                "type": "LicenseType__c",
+                "referenceId": "LicenseType__cRef2"
+            },
+            "Name": "CA"
+        },
+        {
+            "attributes": {
+                "type": "LicenseType__c",
+                "referenceId": "LicenseType__cRef3"
+            },
+            "Name": "CT"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductLicense__c",
+                "referenceId": "ProductLicense__cRef1"
+            },
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef1",
+            "LisenceTypeId__c": "@LicenseType__cRef2"
+        }
+    ]
+}

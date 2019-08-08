@@ -1,0 +1,83 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef1"
+            },
+            "Name": "Hepa-Merz",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "Second Brand",
+            "CTPHARMA__Description__c": "L-ornithine L-aspartate\r\nPrescribed for: treatment of complications of chronic liver diseases, e.g. cirrhosis with symptoms of hepatic encephalopathy.\r\nPrice: $3.41 per 1",
+            "CTPHARMA__Family__c": "Second Family"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef2"
+            },
+            "Name": "Delasone",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "First Brand",
+            "CTPHARMA__Description__c": "Delasone, Sterapred (prednisone)",
+            "CTPHARMA__Family__c": "Third Family",
+            "CTPHARMA__Type__c": "Type 2"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef3"
+            },
+            "Name": "Amoxil",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "Second Brand",
+            "CTPHARMA__Description__c": "Amoxil (amoxicillin)\r\nDrug class: Penicillin antibiotics\r\nPrescribed for: Bacterial infections\r\nPrice: $9",
+            "CTPHARMA__Family__c": "Second Family",
+            "CTPHARMA__Type__c": "Type 3"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef4"
+            },
+            "Name": "Innovo",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "First Brand",
+            "CTPHARMA__Family__c": "First Family",
+            "PublicPrice__c": 560,
+            "CTPHARMA__Type__c": "Type 1"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef5"
+            },
+            "Name": "Nuedexta",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "First Brand",
+            "CTPHARMA__Description__c": "This medication is used to treat a certain mental/mood disorder (pseudobulbar affect). This disorder may occur due to various conditions that affect the brain (such as stroke, amyotrophic lateral sclerosis-ALS, multiple sclerosis). This medication may help decrease sudden outbursts of uncontrollable/inappropriate laughing and/or crying.\r\n\r\nThis medication is a combination of 2 ingredients: dextromethorphan and quinidine. Dextromethorphan works in the brain, though it is not known exactly how it helps treat pseudobulbar affect. Quinidine is added to this medication to increase the effect of dextromethorphan.",
+            "CTPHARMA__Family__c": "First Family"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef6"
+            },
+            "Name": "ONZETRA Xsail",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "First Brand",
+            "CTPHARMA__Family__c": "First Family"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef7"
+            },
+            "Name": "Neurontin",
+            "CTPHARMA__IsActive__c": true,
+            "CTPHARMA__Brand__c": "First Brand",
+            "CTPHARMA__Description__c": "Drug class: Anti-epileptics\r\nPrescribed for: Seizures, nerve pain\r\nPrice: $13",
+            "CTPHARMA__Family__c": "First Family"
+        }
+    ]
+}
