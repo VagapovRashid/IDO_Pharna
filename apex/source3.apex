@@ -1,7 +1,7 @@
 List<clm__Application__c> applications = [SELECT Id FROM clm__Application__c WHERE Name = 'Asthma'];
 Http h = new Http();
 HttpRequest req = new HttpRequest();
-req.setEndpoint('https://raw.githubusercontent.com/VagapovRashid/IDO_Pharma/master/res/Asthma/sources2.zip');
+req.setEndpoint('https://raw.githubusercontent.com/VagapovRashid/IDO_Pharna/master/res/Asthma/sources2.zip');
 req.setMethod('GET');
 HttpResponse res = h.send(req);
 Blob body = res.getBodyAsBlob();
