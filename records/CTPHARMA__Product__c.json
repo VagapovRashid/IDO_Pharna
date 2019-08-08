@@ -44,7 +44,6 @@
             "CTPHARMA__IsActive__c": true,
             "CTPHARMA__Brand__c": "First Brand",
             "CTPHARMA__Family__c": "First Family",
-            "PublicPrice__c": 560,
             "CTPHARMA__Type__c": "Type 1"
         },
         {
