@@ -59,6 +59,9 @@
 		<members>CTPHARMA__Activity__c.Visit_KAM</members>
 		<members>CTPHARMA__Activity__c.Mobile_Visit_KAM</members>
 		<members>CTPHARMA__Activity__c.Mobile_Visit</members>
+        <members>CTPHARMA__ActivityData__c.inventory</members>
+        <members>CTPHARMA__ActivityData__c.new_models</members>
+        <members>CTPHARMA__ActivityData__c.order_supplies</members>
 		<name>RecordType</name>
 	</types>
 	<types>

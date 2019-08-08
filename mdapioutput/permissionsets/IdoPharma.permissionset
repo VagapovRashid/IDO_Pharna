@@ -564,4 +564,20 @@
         <object>Store__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+	<recordTypeVisibilities>
+        <recordType>CTPHARMA__ActivityData__c.inventory</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+	<recordTypeVisibilities>
+        <recordType>CTPHARMA__ActivityData__c.new_models</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+	<recordTypeVisibilities>
+        <recordType>CTPHARMA__ActivityData__c.order_supplies</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+	<recordTypeVisibilities>
+        <recordType>CTPHARMA__Activity__c.Visit_KAM</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 </PermissionSet>
