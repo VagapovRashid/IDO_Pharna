@@ -192,6 +192,41 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.After_sales_service__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.Assessment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.Diagnostic__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.Number_of_new_models__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.Repair__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__ActivityData__c.number_of_terminals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__Product__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>License__c.ContactId__c</field>
         <readable>true</readable>
     </fieldPermissions>
