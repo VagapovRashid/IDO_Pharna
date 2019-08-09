@@ -79,16 +79,34 @@
         <name>RemoteSiteSetting</name>
     </types>
 	<types>
+        <members>ActivityDocSetting__mdt</members>
         <members>Address__c</members>
+        <members>InternalURLSettings__mdt</members>
         <members>LicenseType__c</members>
         <members>License__c</members>
         <members>Lot__c</members>
+        <members>Mobile_StatusSetting__mdt</members>
+        <members>OrderPresentationMapping__mdt</members>
+        <members>PDF_FieldTransformation__mdt</members>
+        <members>ProductDescriptionSetting__mdt</members>
         <members>ProductLicense__c</members>
         <members>ProductLimit__c</members>
+        <members>PromoCalendarHeader__mdt</members>
+        <members>PromoCalendarSettings__mdt</members>
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
         <members>Store__c</members>
+        <members>VisitDialog_Layout__mdt</members>
+        <members>VisitDialog_Sections__mdt</members>
+        <members>VisitDialog_Tabs__mdt</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>VisitDialog_Layout.Audit</members>
+        <members>VisitDialog_Sections.Account_Section</members>
+        <members>VisitDialog_Tabs.Account_Tab</members>
+        <members>VisitDialog_Tabs.Tab_2</members>
+        <name>CustomMetadata</name>
     </types>
     <types>
         <members>Admin</members>
