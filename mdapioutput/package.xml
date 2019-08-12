@@ -55,11 +55,26 @@
         <members>Opportunity.Contact__c</members>
         <members>Opportunity.Expected_Product_Amount__c</members>
         <members>Opportunity.Score__c</members>
+        <members>PromotionAccount__c.AccountId__c</members>
+        <members>PromotionAccount__c.CORE_IsActivePromotion__c</members>
+        <members>PromotionAccount__c.IsActive__c</members>
+        <members>PromotionAccount__c.Promotion__c</members>
+        <members>PromotionAccount__c.SellInEndDate__c</members>
+        <members>PromotionAccount__c.SellInStartDate__c</members>
+        <members>Promotion__c.AccountId__c</members>
+        <members>Promotion__c.CORE_IsActivePromotion__c</members>
+        <members>Promotion__c.IsActive__c</members>
+        <members>Promotion__c.SellInEndDate__c</members>
+        <members>Promotion__c.SellInStartDate__c</members>
+        <members>Promotion__c.SellOutEndDate__c</members>
+        <members>Promotion__c.SellOutStartDate__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
 		<members>CTPHARMA__Activity__c-Mobile 1%3A1 Visit Layout</members>
 		<members>CTPHARMA__Activity__c-Mobile Asthma Layout</members>
+        <members>PromotionAccount__c-Promotion Account Layout</members>
+        <members>Promotion__c-Promotion Layout</members>
 		<name>Layout</name>
 	</types>
 	<types>
