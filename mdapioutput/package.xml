@@ -110,6 +110,7 @@
         <members>PromoCalendarHeader__mdt</members>
         <members>PromoCalendarSettings__mdt</members>
         <members>PromotionAccount__c</members>
+        <members>PromotionProduct__c</members>
         <members>Promotion__c</members>
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
