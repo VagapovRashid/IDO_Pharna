@@ -22,5 +22,85 @@
         "files": [
             "clm__Slide__c.json"
         ]
+    },
+    {
+        "sobject": "clm__Placeholder__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Placeholder__c.json"
+        ]
+    },
+    {
+        "sobject": "clm__Widget__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Widget__c.json"
+        ]
+    },
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Contact.json"
+        ]
+    },
+    {
+        "sobject": "Case",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Case.json"
+        ]
+    },
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Opportunity.json"
+        ]
+    },
+    {
+        "sobject": "CTPHARMA__Product__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "CTPHARMA__Product__c.json"
+        ]
+    },
+    {
+        "sobject": "LicenseType__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LicenseType__c.json"
+        ]
+    },
+    {
+        "sobject": "ProductLicense__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProductLicense__c.json"
+        ]
+    },
+    {
+        "sobject": "License__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "License__c.json"
+        ]
     }
 ]
