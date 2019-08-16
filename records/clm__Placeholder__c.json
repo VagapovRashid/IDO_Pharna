@@ -307,6 +307,19 @@
             "clm__TemplateId__c": "@clm__Template__cRef18",
             "clm__Width__c": 200,
             "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef23"
+            },
+            "Name": "home: products(SAP code)",
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__Height__c": 100,
+            "clm__Position__c": 2,
+            "clm__Width__c": 200,
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         }
     ]
 }
