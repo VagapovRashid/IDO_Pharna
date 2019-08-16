@@ -50,7 +50,10 @@
         <members>CTPHARMA__ActivityData__c.Number_of_new_models__c</members>
         <members>CTPHARMA__ActivityData__c.Repair__c</members>
         <members>CTPHARMA__ActivityData__c.number_of_terminals__c</members>
+        <members>CTPHARMA__Product__c.IsDentalModel__c</members>
+        <members>CTPHARMA__Product__c.IsHandPiece__c</members>
         <members>CTPHARMA__Product__c.Price__c</members>
+        <members>CTPHARMA__Product__c.ProductSAPcode__c</members>
         <members>Opportunity.Account__c</members>
         <members>Opportunity.Contact__c</members>
         <members>Opportunity.Expected_Product_Amount__c</members>

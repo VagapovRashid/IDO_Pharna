@@ -222,7 +222,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CTPHARMA__Product__c.IsDentalModel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__Product__c.IsHandPiece__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CTPHARMA__Product__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__Product__c.ProductSAPcode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

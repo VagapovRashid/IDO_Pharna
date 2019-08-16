@@ -44,7 +44,8 @@
             "CTPHARMA__IsActive__c": true,
             "CTPHARMA__Brand__c": "First Brand",
             "CTPHARMA__Family__c": "First Family",
-            "CTPHARMA__Type__c": "Type 1"
+            "CTPHARMA__Type__c": "Type 1",
+            "ProductSAPcode__c": "1"
         },
         {
             "attributes": {
@@ -65,7 +66,8 @@
             "Name": "ONZETRA Xsail",
             "CTPHARMA__IsActive__c": true,
             "CTPHARMA__Brand__c": "First Brand",
-            "CTPHARMA__Family__c": "First Family"
+            "CTPHARMA__Family__c": "First Family",
+            "ProductSAPcode__c": "12"
         },
         {
             "attributes": {
