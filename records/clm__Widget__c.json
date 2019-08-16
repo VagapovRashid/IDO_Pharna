@@ -153,7 +153,7 @@
             "clm__PlaceholderId__c": "@clm__Placeholder__cRef8",
             "clm__ApplicationId__c": "@clm__Application__cRef1"
         },
-		{
+{
             "attributes": {
                 "type": "clm__Widget__c",
                 "referenceId": "clm__Widget__cRef10"
@@ -168,7 +168,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -185,7 +185,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -202,7 +202,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -219,7 +219,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -236,7 +236,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -253,7 +253,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -270,7 +270,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -287,7 +287,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -304,7 +304,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -321,7 +321,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -338,7 +338,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -355,7 +355,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -372,7 +372,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -389,7 +389,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -406,7 +406,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -423,7 +423,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -440,7 +440,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -457,7 +457,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -474,7 +474,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         },
         {
             "attributes": {
@@ -491,7 +491,7 @@
             "clm__ShowLegend__c": false,
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text",
-            "clm__ApplicationId__c": "@clm__Application__cRef1"
+            "clm__ApplicationId__c": "@clm__Application__cRef2"
         }
     ]
 }
