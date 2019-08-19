@@ -3,7 +3,6 @@
     <compactLayouts>
         <fullName>MobileMainCompactLayout</fullName>
         <fields>CTPHARMA__AccountId__c</fields>
-        <fields>AccountAddress__c</fields>
         <label>Mobile Main Compact Layout</label>
     </compactLayouts>
     <enableEnhancedLookup>false</enableEnhancedLookup>
