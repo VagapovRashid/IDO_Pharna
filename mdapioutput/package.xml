@@ -5,7 +5,6 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-        <members>CTPHARMA__Activity__c.AccountAddress__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
 		<members>CTPHARMA__Activity__c.Cost__c</members>
 		<members>CTPHARMA__Activity__c.Number_of_prescriptions__c</members>
