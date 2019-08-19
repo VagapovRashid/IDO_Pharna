@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Education__c</fullName>
+        <fullName>IDO__Education__c</fullName>
         <externalId>false</externalId>
         <label>Education</label>
         <required>false</required>
@@ -9,7 +9,7 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>LicenseExpirationDate__c</fullName>
+        <fullName>IDO__LicenseExpirationDate__c</fullName>
         <externalId>false</externalId>
         <label>License expiration date</label>
         <required>false</required>
@@ -17,7 +17,7 @@
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>License__c</fullName>
+        <fullName>IDO__License__c</fullName>
         <externalId>false</externalId>
         <label>License</label>
         <required>false</required>
@@ -226,7 +226,7 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>License_status__c</fullName>
+        <fullName>IDO__License_status__c</fullName>
         <externalId>false</externalId>
         <label>License status</label>
         <required>false</required>
@@ -250,7 +250,7 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Main_Location__c</fullName>
+        <fullName>IDO__Main_Location__c</fullName>
         <externalId>false</externalId>
         <label>Main Location</label>
         <required>false</required>
@@ -258,7 +258,7 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>SecondaryLocation__c</fullName>
+        <fullName>IDO__SecondaryLocation__c</fullName>
         <externalId>false</externalId>
         <label>Secondary Location</label>
         <required>false</required>
@@ -266,7 +266,7 @@
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>StateLicenceID__c</fullName>
+        <fullName>IDO__StateLicenceID__c</fullName>
         <externalId>false</externalId>
         <label>State Licence ID</label>
         <length>20</length>
@@ -276,7 +276,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>State_License__c</fullName>
+        <fullName>IDO__State_License__c</fullName>
         <externalId>false</externalId>
         <label>State License</label>
         <precision>18</precision>
@@ -287,7 +287,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>State__c</fullName>
+        <fullName>IDO__State__c</fullName>
         <externalId>false</externalId>
         <label>State</label>
         <required>false</required>
@@ -551,7 +551,7 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>TypeOfDoctor__c</fullName>
+        <fullName>IDO__TypeOfDoctor__c</fullName>
         <externalId>false</externalId>
         <label>Type of Doctor</label>
         <required>false</required>
@@ -591,7 +591,7 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
-        <fullName>TypeofQualification__c</fullName>
+        <fullName>IDO__TypeofQualification__c</fullName>
         <externalId>false</externalId>
         <label>Type of qualification</label>
         <required>false</required>
