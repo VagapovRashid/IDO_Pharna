@@ -11,9 +11,7 @@
             "Probability": 100,
             "Amount": 300,
             "ForecastCategoryName": "Closed",
-            "AccountId": "@AccountRef1",
-            "IDO__Account__c": "@AccountRef1",
-            "IDO__Contact__c": "@ContactRef2"
+            "AccountId": "@AccountRef1"
         },
         {
             "attributes": {
@@ -22,16 +20,12 @@
             },
             "Name": "*United Nursing Facility Network - NUEDEXTA",
             "Type": "Add-On Business",
-            "IDO__Expected_Product_Amount__c": 25000,
             "CloseDate": "2020-01-24",
             "StageName": "Develop External Advocates",
             "Probability": 20,
             "Amount": 25000,
             "ForecastCategoryName": "Pipeline",
-            "IDO__Score__c": 56,
-            "AccountId": "@AccountRef1",
-            "IDO__Account__c": "@AccountRef1",
-            "IDO__Contact__c": "@ContactRef2"
+            "AccountId": "@AccountRef1"
         }
     ]
 }

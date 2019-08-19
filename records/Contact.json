@@ -23,19 +23,8 @@
             "Email": "lboyle@example.com",
             "Phone": "(415) 555-9303",
             "Birthdate": "1978-07-07",
-            "IDO__TypeOfDoctor__c": "GP's",
-            "IDO__TypeofQualification__c": "Doctor",
-            "IDO__Education__c": "UC Davis School of Medicine",
             "CTPHARMA__DivisionAlphaCategory__c": "Category 1",
             "CTPHARMA__DivisionBetaCategory__c": "Category 2",
-            "IDO__State__c": "CA",
-            "IDO__StateLicenceID__c": "145264",
-            "IDO__State_License__c": 145264,
-            "IDO__Main_Location__c": "*United Facility Network",
-            "IDO__SecondaryLocation__c": "Advanced Urology",
-            "IDO__License__c": "Cardiologist",
-            "IDO__License_status__c": "Valid",
-            "LicenseExpirationDate__c": "2020-07-16",
             "AccountId": "@AccountRef1"
         }
     ]
