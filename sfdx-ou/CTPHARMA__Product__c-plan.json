@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "CTPHARMA__Product__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "CTPHARMA__Product__cs.json"
+        ]
+    }
+]

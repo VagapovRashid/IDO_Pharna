@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>FieldsLayout__c</field>
-        <value xsi:type="xsd:string">Description,AnnualRevenue,Full_Address__c,Website,Visit_Comments__c,CY_SR_Forecast__c,CY_Plan__c,CY_Actual__c,Y_1_Plan_Formula__c,Y_1_Actual__c</value>
+        <value xsi:type="xsd:string">Description,AnnualRevenue,Full_Address__c,Website,of_Patients__c,Goal_Attainment__c,of_Reps_Trained__c,Patient_Age_35_44__c,Patient_Age_45_54__c,Patient_Age_55_64__c,Patient_Age_64__c</value>
     </values>
     <values>
         <field>FilterFields__c</field>

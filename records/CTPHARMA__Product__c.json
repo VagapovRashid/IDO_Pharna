@@ -79,6 +79,86 @@
             "CTPHARMA__Brand__c": "First Brand",
             "CTPHARMA__Description__c": "Drug class: Anti-epileptics\r\nPrescribed for: Seizures, nerve pain\r\nPrice: $13",
             "CTPHARMA__Family__c": "First Family"
+        },
+		{
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef8"
+            },
+            "Name": "Jenevutusol - 400mg",
+            "Image__c": "3"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef9"
+            },
+            "Name": "Ditrabin - 10mg/mL",
+            "Image__c": "5"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef10"
+            },
+            "Name": "Tikatzen 5mg",
+            "Image__c": "1"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef11"
+            },
+            "Name": "Tikatzen 2.5mg",
+            "Image__c": "2"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef12"
+            },
+            "Name": "Alphazone - 20mg",
+            "Image__c": "8"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef13"
+            },
+            "Name": "Alphazone - 10mg",
+            "Image__c": "9"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef14"
+            },
+            "Name": "Ditrabin - 20mg/mL",
+            "Image__c": "4"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef15"
+            },
+            "Name": "Comloatsin - 200mg",
+            "Image__c": "6"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef16"
+            },
+            "Name": "Alphazone - 5mg",
+            "Image__c": "10"
+        },
+        {
+            "attributes": {
+                "type": "CTPHARMA__Product__c",
+                "referenceId": "CTPHARMA__Product__cRef17"
+            },
+            "Name": "Comloatsin - 10mg",
+            "Image__c": "7"
         }
     ]
 }

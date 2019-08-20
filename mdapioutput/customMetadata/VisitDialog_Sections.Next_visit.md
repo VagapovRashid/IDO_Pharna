@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>ColumnNum__c</field>
-        <value xsi:type="xsd:double">2.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>DashboardChart__c</field>
@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>FieldsLayout__c</field>
-        <value xsi:type="xsd:string">CTPHARMA__NextCallDate__c,CTPHARMA__NextCallObjective__c</value>
+        <value xsi:type="xsd:string">CTPHARMA__NextCallDate__c,CTPHARMA__NextCallObjective__c,CTPHARMA__Result__c,CTPHARMA__Objective__c,CTPHARMA__IsApproved__c</value>
     </values>
     <values>
         <field>FilterFields__c</field>
