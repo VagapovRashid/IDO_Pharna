@@ -15,10 +15,12 @@
 		<members>CTPHARMA__Activity__c.Uncontroled_asthma_number__c</members>
 		<members>CTPHARMA__ActivityData__c.After_sales_service__c</members>
         <members>CTPHARMA__ActivityData__c.Assessment__c</members>
+        <members>CTPHARMA__ActivityData__c.CORE_ProductImageFileName__c</members>
         <members>CTPHARMA__ActivityData__c.Diagnostic__c</members>
         <members>CTPHARMA__ActivityData__c.Number_of_new_models__c</members>
         <members>CTPHARMA__ActivityData__c.Repair__c</members>
         <members>CTPHARMA__ActivityData__c.number_of_terminals__c</members>
+        <members>CTPHARMA__Product__c.Image__c</members>
         <members>CTPHARMA__Product__c.IsDentalModel__c</members>
         <members>CTPHARMA__Product__c.IsHandPiece__c</members>
         <members>CTPHARMA__Product__c.Price__c</members>

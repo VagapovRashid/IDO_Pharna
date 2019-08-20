@@ -20,6 +20,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CORE_ProductImageFileName__c</fullName>
+        <externalId>false</externalId>
+        <formula>CTPHARMA__ProductId__r.Image__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Image File Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Diagnostic__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
