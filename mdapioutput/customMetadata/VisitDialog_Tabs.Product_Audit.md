@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Tab 2</label>
+    <label>Product Audit</label>
     <protected>false</protected>
     <values>
         <field>ActivityFieldName_ND__c</field>
@@ -28,7 +28,7 @@
     </values>
     <values>
         <field>ColumnsNumber__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>ContentButtonLabel__c</field>
@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>CurrentStatus__c</field>
-        <value xsi:type="xsd:string">Realized</value>
+        <value xsi:type="xsd:string">Confirmed_InProgress</value>
     </values>
     <values>
         <field>DN_AccountFields__c</field>
@@ -48,7 +48,7 @@
     </values>
     <values>
         <field>DisplayType__c</field>
-        <value xsi:type="xsd:string">Record Page</value>
+        <value xsi:type="xsd:string">Dialog Screen</value>
     </values>
     <values>
         <field>DocumentTemplateName__c</field>
@@ -68,7 +68,7 @@
     </values>
     <values>
         <field>IsContentButton__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>IsDone__c</field>
@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>LayoutId__c</field>
-        <value xsi:type="xsd:string">Audit</value>
+        <value xsi:type="xsd:string">Store_Audit</value>
     </values>
     <values>
         <field>PDFButtonLabel__c</field>
@@ -96,14 +96,14 @@
     </values>
     <values>
         <field>TabLabel__c</field>
-        <value xsi:type="xsd:string">Tab 2</value>
+        <value xsi:type="xsd:string">Product Audit</value>
     </values>
     <values>
         <field>TabOrder__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">3.0</value>
     </values>
     <values>
         <field>isPhoto__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
 </CustomMetadata>

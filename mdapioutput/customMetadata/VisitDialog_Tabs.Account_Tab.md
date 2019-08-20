@@ -11,6 +11,14 @@
         <value xsi:nil="true"/>
     </values>
     <values>
+        <field>ActivityKPI_ND__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ActivityKPI_SOS__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>ActivityPDLFieldName__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -20,7 +28,7 @@
     </values>
     <values>
         <field>ColumnsNumber__c</field>
-        <value xsi:type="xsd:double">1.0</value>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>ContentButtonLabel__c</field>
@@ -93,5 +101,9 @@
     <values>
         <field>TabOrder__c</field>
         <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>isPhoto__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
 </CustomMetadata>

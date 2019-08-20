@@ -87,10 +87,57 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>PDF_FieldTransformation.Activity_Data_Imge</members>
+        <members>PromoCalendarHeader.Hospital</members>
+        <members>PromoCalendarHeader.Pharmacy</members>
+        <members>PromoCalendarSettings.HospitalPromo</members>
+        <members>PromoCalendarSettings.Pharmacy_Promo</members>
         <members>VisitDialog_Layout.Audit</members>
+        <members>VisitDialog_Layout.Store_Audit</members>
         <members>VisitDialog_Sections.Account_Section</members>
+        <members>VisitDialog_Sections.Completed_Actions</members>
+        <members>VisitDialog_Sections.Contacts</members>
+        <members>VisitDialog_Sections.Dashboard</members>
+        <members>VisitDialog_Sections.General_Information</members>
+        <members>VisitDialog_Sections.Next_visit</members>
+        <members>VisitDialog_Sections.Plan_D_Action</members>
+        <members>VisitDialog_Sections.Plan_vs_Fact</members>
+        <members>VisitDialog_Sections.Product_Records</members>
+        <members>VisitDialog_Sections.Promotion</members>
+        <members>VisitDialog_Sections.Visit_General_Info</members>
+        <members>VisitDialog_Sections.Visit_Results</members>
         <members>VisitDialog_Tabs.Account_Tab</members>
+        <members>VisitDialog_Tabs.Compte_Rendu</members>
+        <members>VisitDialog_Tabs.Plan_D_Action</members>
+        <members>VisitDialog_Tabs.Product_Audit</members>
         <members>VisitDialog_Tabs.Tab_2</members>
+        <members>VisitDialog_Tabs.Visit_Details</members>
+        <members>clm__Workflow.ActivityPrepare</members>
+        <members>clm__Workflow.ConfirmTransfer</members>
+        <members>clm__Workflow.FinishButtonInspection</members>
+        <members>clm__Workflow.FinishButtonInventory</members>
+        <members>clm__Workflow.Finish_visit</members>
+        <members>clm__Workflow.Prepare_Orders</members>
+        <members>clm__Workflow.Realize_Audit</members>
+        <members>clm__Workflow.SaveButtonInspection</members>
+        <members>clm__Workflow.Save_Button_Inventory</members>
+        <members>clm__Workflow.Start_Audit</members>
+        <members>clm__Workflow.Start_Visit</members>
+        <members>clm__WorkflowStep.Change_status_to_Finished</members>
+        <members>clm__WorkflowStep.CreateStoreProduct</members>
+        <members>clm__WorkflowStep.Create_Audit_1</members>
+        <members>clm__WorkflowStep.Create_Orders</members>
+        <members>clm__WorkflowStep.Create_Sample_Inventory_Product</members>
+        <members>clm__WorkflowStep.Create_Storage_Inspection_Product</members>
+        <members>clm__WorkflowStep.Create_Visit_Actions</members>
+        <members>clm__WorkflowStep.Status_Update</members>
+        <members>clm__WorkflowStep.UpdateStatusAfterFinishInspection</members>
+        <members>clm__WorkflowStep.UpdateStatusAfterFinishIventory</members>
+        <members>clm__WorkflowStep.UpdateStatusAfterStartInventory</members>
+        <members>clm__WorkflowStep.Update_ALI_on_Realize</members>
+        <members>clm__WorkflowStep.Update_Activity_on_Prepare</members>
+        <members>clm__WorkflowStep.Update_Record_Finished</members>
+        <members>clm__WorkflowStep.Update_Status_After_Start</members>
         <name>CustomMetadata</name>
     </types>
     <types>

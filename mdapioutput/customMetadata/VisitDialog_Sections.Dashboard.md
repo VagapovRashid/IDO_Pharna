@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Account Section</label>
+    <label>Dashboard</label>
     <protected>false</protected>
     <values>
         <field>ActivityLookupFieldAPI__c</field>
@@ -12,23 +12,23 @@
     </values>
     <values>
         <field>ColumnNum__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>DashboardChart__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">CY Plan vs CY Actual</value>
     </values>
     <values>
         <field>DashboardFolder__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">CLM_Dashboards</value>
     </values>
     <values>
         <field>Dashboard__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Order_Analytics</value>
     </values>
     <values>
         <field>DisplayFormat__c</field>
-        <value xsi:type="xsd:string">Fields</value>
+        <value xsi:type="xsd:string">Dashboard</value>
     </values>
     <values>
         <field>FieldName__c</field>
@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>FieldsLayout__c</field>
-        <value xsi:type="xsd:string">LastVisitDate__c,CTCPG__EndDate__c,CTCPG__StartDate__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FilterFields__c</field>
@@ -76,7 +76,7 @@
     </values>
     <values>
         <field>ReadOnlyAttribute__c</field>
-        <value xsi:type="xsd:string">true,false,false</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>RecordCondition__c</field>
@@ -92,7 +92,7 @@
     </values>
     <values>
         <field>RequiredAttribute__c</field>
-        <value xsi:type="xsd:string">false,false,false</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>SearchObjectName__c</field>
@@ -100,15 +100,15 @@
     </values>
     <values>
         <field>SectionLabel__c</field>
-        <value xsi:type="xsd:string">Account Section</value>
+        <value xsi:type="xsd:string">Sales Data</value>
     </values>
     <values>
         <field>SectionOrder__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>TabId__c</field>
-        <value xsi:type="xsd:string">Account_Tab</value>
+        <value xsi:type="xsd:string">Visit_Details</value>
     </values>
     <values>
         <field>TabUpdate__c</field>

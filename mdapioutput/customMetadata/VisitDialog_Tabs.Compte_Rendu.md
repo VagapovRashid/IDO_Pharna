@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Tab 2</label>
+    <label>Visit Overview</label>
     <protected>false</protected>
     <values>
         <field>ActivityFieldName_ND__c</field>
@@ -28,7 +28,7 @@
     </values>
     <values>
         <field>ColumnsNumber__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>ContentButtonLabel__c</field>
@@ -48,7 +48,7 @@
     </values>
     <values>
         <field>DisplayType__c</field>
-        <value xsi:type="xsd:string">Record Page</value>
+        <value xsi:type="xsd:string">Dialog Screen</value>
     </values>
     <values>
         <field>DocumentTemplateName__c</field>
@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>LayoutId__c</field>
-        <value xsi:type="xsd:string">Audit</value>
+        <value xsi:type="xsd:string">Store_Audit</value>
     </values>
     <values>
         <field>PDFButtonLabel__c</field>
@@ -96,11 +96,11 @@
     </values>
     <values>
         <field>TabLabel__c</field>
-        <value xsi:type="xsd:string">Tab 2</value>
+        <value xsi:type="xsd:string">Visit Overview</value>
     </values>
     <values>
         <field>TabOrder__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">5.0</value>
     </values>
     <values>
         <field>isPhoto__c</field>
