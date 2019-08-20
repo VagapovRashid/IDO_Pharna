@@ -149,17 +149,6 @@
         <name>CustomMetadata</name>
     </types>
     <types>
-        <members>CompanyDashboards</members>
-        <members>CompanyDashboards/SA</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
-        <members>Sample_Accounting</members>
-        <members>Sample_Accounting/Activities_by_Status2</members>
-        <members>Sample_Accounting/Activities_by_Type2</members>
-        <name>Report</name>
-    </types>
-    <types>
         <members>Admin</members>
         <name>Profile</name>
     </types>
