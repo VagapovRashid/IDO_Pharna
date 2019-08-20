@@ -5,7 +5,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef1"
             },
-            "Name": "ALI-00000001",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef8",
             "Account__c": "@AccountRef1"
@@ -15,7 +14,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef2"
             },
-            "Name": "ALI-00000006",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef15",
             "Account__c": "@AccountRef1"
@@ -25,7 +23,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef3"
             },
-            "Name": "ALI-00000004",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef12",
             "Account__c": "@AccountRef1"
@@ -35,7 +32,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef4"
             },
-            "Name": "ALI-00000008",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef14",
             "Account__c": "@AccountRef1"
@@ -45,7 +41,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef5"
             },
-            "Name": "ALI-00000005",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef17",
             "Account__c": "@AccountRef1"
@@ -55,7 +50,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef6"
             },
-            "Name": "ALI-00000010",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef10",
             "Account__c": "@AccountRef1"
@@ -65,7 +59,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef7"
             },
-            "Name": "ALI-00000002",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef16",
             "Account__c": "@AccountRef1"
@@ -75,7 +68,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef8"
             },
-            "Name": "ALI-00000009",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef11",
             "Account__c": "@AccountRef1"
@@ -85,7 +77,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef9"
             },
-            "Name": "ALI-00000003",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef13",
             "Account__c": "@AccountRef1"
@@ -95,7 +86,6 @@
                 "type": "CORE_AssortmentLineItem__c",
                 "referenceId": "CORE_AssortmentLineItem__cRef10"
             },
-            "Name": "ALI-00000007",
             "Universe__c": "Audit 1",
             "Pharma_Product__c": "@CTPHARMA__Product__cRef9",
             "Account__c": "@AccountRef1"
