@@ -1,11 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+
     <compactLayouts>
         <fullName>MobileMainCompactLayout</fullName>
         <fields>CTPHARMA__AccountId__c</fields>
         <label>Mobile Main Compact Layout</label>
     </compactLayouts>
     <enableEnhancedLookup>false</enableEnhancedLookup>
+	<fields>
+        <fullName>CTPHARMA__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>true</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Finished</fullName>
+                    <default>false</default>
+                    <label>Finished</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+                <value>
+                    <fullName>Confirmed_InProgress</fullName>
+                    <default>false</default>
+                    <label>Confirmed_InProgress</label>
+                </value>
+                <value>
+                    <fullName>Realized</fullName>
+                    <default>false</default>
+                    <label>Realized</label>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                    <label>Confirmed</label>
+                </value>
+                <value>
+                    <fullName>Confirmed_Prepared</fullName>
+                    <default>false</default>
+                    <label>Confirmed_Prepared</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <fields>
         <fullName>Controled_asthma_number__c</fullName>
         <externalId>false</externalId>
@@ -79,6 +135,41 @@
         <active>true</active>
         <compactLayoutAssignment>MobileMainCompactLayout</compactLayoutAssignment>
         <label>Visit KAM</label>
+		<picklistValues>
+			<picklist>CTPHARMA__Status__c</picklist>
+            <values>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finished</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed_InProgress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Realized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed_Prepared</fullName>
+                <default>false</default>
+            </values>
+		</picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Mobile_Visit_KAM</fullName>
