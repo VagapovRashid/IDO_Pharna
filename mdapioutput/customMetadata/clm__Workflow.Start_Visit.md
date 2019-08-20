@@ -28,6 +28,6 @@
     </values>
     <values>
         <field>clm__TriggerCriteria__c</field>
-        <value xsi:type="xsd:string">where CTPHARMA__Status__c= &apos;Planned&apos; and RecordTypeId.DeveloperName = &apos;Visit&apos;</value>
+        <value xsi:type="xsd:string">where CTPHARMA__Status__c= &apos;Planned&apos; and RecordTypeId.DeveloperName != &apos;DemoAudit&apos;</value>
     </values>
 </CustomMetadata>

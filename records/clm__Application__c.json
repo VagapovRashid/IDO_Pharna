@@ -5,7 +5,7 @@
                 "type": "clm__Application__c",
                 "referenceId": "clm__Application__cRef1"
             },
-            "clm__IsActive__c": false,
+            "clm__IsActive__c": true,
             "Name": "Asthma",
             "clm__IsAvailableForRD__c": false,
             "clm__DeviceOrientation__c": "Horizontal",
