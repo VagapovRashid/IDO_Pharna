@@ -346,6 +346,14 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>TabUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>TabUpdate</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TransformationType__c</fullName>
         <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>

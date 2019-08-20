@@ -24,6 +24,28 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>ActivityKPI_ND__c</fullName>
+        <description>1</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>ActivityKPI_ND</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ActivityKPI_SOS__c</fullName>
+        <description>2</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>ActivityKPI_SOS</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ActivityPDLFieldName__c</fullName>
         <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
@@ -283,6 +305,14 @@
         <scale>0</scale>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isPhoto__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>isPhoto</label>
+        <type>Checkbox</type>
     </fields>
     <label>Visit Dialog Tabs Settings</label>
     <pluralLabel>Visit Dialog Tabs Settings</pluralLabel>

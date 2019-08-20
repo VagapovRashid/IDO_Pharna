@@ -36,6 +36,14 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>IsSoundsEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable Sounds</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>LayoutHeaderLabel__c</fullName>
         <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
@@ -57,10 +65,41 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>VisitObject__c</fullName>
+        <description>Object to which the visit relates</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Visit Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>VisitRecordTypeName__c</fullName>
         <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Visit Record Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VisitStepField__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Visit Step Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VisitStepsPassedField__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Visit Steps Passed Field</label>
         <length>255</length>
         <required>false</required>
         <type>Text</type>
