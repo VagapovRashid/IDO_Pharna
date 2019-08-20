@@ -171,6 +171,51 @@
             </values>
 		</picklistValues>
     </recordTypes>
+	<recordTypes>
+        <fullName>DemoAudit</fullName>
+        <active>true</active>
+        <label>Consumer Health</label>
+		<picklistValues>
+			<picklist>CTPHARMA__Status__c</picklist>
+            <values>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finished</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed_InProgress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Realized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed_Prepared</fullName>
+                <default>false</default>
+            </values>
+		</picklistValues>
+    </recordTypes>
+	<recordTypes>
+        <fullName>Mobile_DemoAudit</fullName>
+        <active>false</active>
+        <label>Mobile Consumer Health</label>
+    </recordTypes>
     <recordTypes>
         <fullName>Mobile_Visit_KAM</fullName>
         <active>false</active>

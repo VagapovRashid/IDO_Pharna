@@ -75,6 +75,19 @@ settings[1].clm__RequiredAttribute__c = 'true,true,true';
 settings[1].clm__SObject__c = 'CTPHARMA__Activity__c';
 settings[1].Name = 'New Visit: KAM';
 
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Audit'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[2].clm__Action__c = 'New';
+settings[2].clm__Fields__c = 'CTPHARMA__AccountId__c,CTPHARMA__StartDate__c,CTPHARMA__EndDate__';
+settings[2].clm__RecordtypeDeveloperName__c = 'DemoAudit';
+settings[2].clm__RequiredAttribute__c = 'true,true,true';
+settings[2].clm__SObject__c = 'CTPHARMA__Activity__c';
+settings[2].Name = 'New Audit';
+
 upsert settings;
 
 List<clm__MobileActivityDataCustomization__c> activityCustomizations = new List<clm__MobileActivityDataCustomization__c>();
