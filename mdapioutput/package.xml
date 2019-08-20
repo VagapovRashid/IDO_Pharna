@@ -114,7 +114,6 @@
         <members>VisitDialog_Sections.Next_visit</members>
         <members>VisitDialog_Sections.Product_Records</members>
         <members>VisitDialog_Sections.Visit_General_Info</members>
-        <members>VisitDialog_Sections.Visit_Results</members>
         <members>VisitDialog_Tabs.Account_Tab</members>
         <members>VisitDialog_Tabs.Compte_Rendu</members>
         <members>VisitDialog_Tabs.Product_Audit</members>
