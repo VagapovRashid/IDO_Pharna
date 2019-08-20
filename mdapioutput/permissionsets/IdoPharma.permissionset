@@ -550,8 +550,4 @@
         <recordType>CTPHARMA__Activity__c.Mobile_Visit</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    <tabSettings>
-        <tab>CORE_ActionPlan__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
 </PermissionSet>
