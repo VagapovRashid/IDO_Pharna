@@ -6,6 +6,7 @@
 	</types>
 	<types>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
+        <members>CTPHARMA__Activity__c.CTPHARMA__Status__c</members>
 		<members>CTPHARMA__Activity__c.Cost__c</members>
 		<members>CTPHARMA__Activity__c.Number_of_prescriptions__c</members>
 		<members>CTPHARMA__Activity__c.Partialy_Controled_asthma_number__c</members>
@@ -44,6 +45,8 @@
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>CTPHARMA__Activity__c.DemoAudit</members>
+		<members>CTPHARMA__Activity__c.Mobile_DemoAudit</members>
 		<members>CTPHARMA__Activity__c.Visit_KAM</members>
 		<members>CTPHARMA__Activity__c.Mobile_Visit_KAM</members>
 		<members>CTPHARMA__Activity__c.Mobile_Visit</members>
