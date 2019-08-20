@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CORE_Action__c",
+                "referenceId": "CORE_Action__cRef1"
+            },
+            "Name": "3. Products Audit",
+            "ActionPlan__c": "@CORE_ActionPlan__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "CORE_Action__c",
+                "referenceId": "CORE_Action__cRef2"
+            },
+            "Name": "4. Promotions",
+            "ActionPlan__c": "@CORE_ActionPlan__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "CORE_Action__c",
+                "referenceId": "CORE_Action__cRef3"
+            },
+            "Name": "2. Check Store Shelves Layout",
+            "ActionPlan__c": "@CORE_ActionPlan__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "CORE_Action__c",
+                "referenceId": "CORE_Action__cRef4"
+            },
+            "Name": "1. Check Store Exterior",
+            "ActionPlan__c": "@CORE_ActionPlan__cRef1"
+        }
+    ]
+}

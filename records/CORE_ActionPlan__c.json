@@ -1,0 +1,10 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CORE_ActionPlan__c",
+                "referenceId": "CORE_ActionPlan__cRef1"
+            }
+        }
+    ]
+}

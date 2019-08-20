@@ -102,5 +102,21 @@
         "files": [
             "License__c.json"
         ]
+    },
+    {
+        "sobject": "CORE_ActionPlan__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "CORE_ActionPlan__c.json"
+        ]
+    },
+    {
+        "sobject": "CORE_Action__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "CORE_Action__c.json"
+        ]
     }
 ]
