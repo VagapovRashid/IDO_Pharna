@@ -2,6 +2,26 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
 	<fieldPermissions>
         <editable>true</editable>
+        <field>Account.CORE_ActionPlan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CORE_AssortmentLineItem__c.Activity_Data_Rec_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CORE_AssortmentLineItem__c.Pharma_Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CORE_AssortmentLineItem__c.Universe__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
         <field>CTPHARMA__Activity__c.Controled_asthma_number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -315,6 +335,31 @@
         <field>Store__c.ValidationDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_Action__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_Action__c.ActionId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Visit_Action__c.ActionName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_Action__c.IsComplete__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_Action__c.isApplied__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>IdoPharma</label>
     <objectPermissions>
@@ -333,6 +378,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Address__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CORE_ActionPlan__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CORE_AssortmentLineItem__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -434,6 +497,27 @@
         <object>Store__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Visit_Action__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>CORE_AssortmentLineItem__c.Asset_Audit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>CORE_AssortmentLineItem__c.Shelf_Product_Audit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>CORE_AssortmentLineItem__c.Shelf_Structure_Audit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 	<recordTypeVisibilities>
         <recordType>CTPHARMA__ActivityData__c.inventory</recordType>
         <visible>true</visible>
@@ -447,7 +531,27 @@
         <visible>true</visible>
     </recordTypeVisibilities>
 	<recordTypeVisibilities>
+        <recordType>CTPHARMA__Activity__c.DemoAudit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>CTPHARMA__Activity__c.Mobile_DemoAudit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <recordType>CTPHARMA__Activity__c.Visit_KAM</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>CTPHARMA__Activity__c.Mobile_Visit_KAM</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>CTPHARMA__Activity__c.Mobile_Visit</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>CORE_ActionPlan__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

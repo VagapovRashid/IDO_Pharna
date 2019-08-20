@@ -5,6 +5,7 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+        <members>Account.CORE_ActionPlan__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
         <members>CTPHARMA__Activity__c.CTPHARMA__Status__c</members>
 		<members>CTPHARMA__Activity__c.Cost__c</members>
@@ -65,7 +66,10 @@
     </types>
 	<types>
         <members>ActivityDocSetting__mdt</members>
-        <members>Address__c</members>
+        <members>Address__c</members>		
+        <members>CORE_ActionPlan__c</members>
+        <members>CORE_Action__c</members>
+        <members>CORE_AssortmentLineItem__c</members>
         <members>InternalURLSettings__mdt</members>
         <members>LicenseType__c</members>
         <members>License__c</members>
@@ -84,6 +88,7 @@
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
         <members>Store__c</members>
+        <members>Visit_Action__c</members>
         <members>VisitDialog_Layout__mdt</members>
         <members>VisitDialog_Sections__mdt</members>
         <members>VisitDialog_Tabs__mdt</members>
