@@ -7,6 +7,19 @@
         <label>Mobile Main Compact Layout</label>
     </compactLayouts>
     <enableEnhancedLookup>false</enableEnhancedLookup>
+    <fields>
+        <fullName>AddressId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Activities (Address)</relationshipLabel>
+        <relationshipName>Account_Activities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
 	<fields>
         <fullName>CTPHARMA__Status__c</fullName>
         <deprecated>false</deprecated>
@@ -63,6 +76,18 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>ContactDegree__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(CTPHARMA__ContactId__r.Degree__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Degree</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Controled_asthma_number__c</fullName>
         <externalId>false</externalId>
         <label>Controled Asthma</label>
@@ -84,6 +109,18 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>LicenseNumber__c</fullName>
+        <externalId>false</externalId>
+        <formula>CTPHARMA__ContactId__r.License_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>License Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Number_of_prescriptions__c</fullName>

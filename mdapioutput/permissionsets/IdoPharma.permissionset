@@ -7,6 +7,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Degree__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.License_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CORE_AssortmentLineItem__c.Activity_Data_Rec_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18,6 +28,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CORE_AssortmentLineItem__c.Universe__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>CTPHARMA__Activity__c.AddressId__c</field>
         <readable>true</readable>
     </fieldPermissions>
 	<fieldPermissions>

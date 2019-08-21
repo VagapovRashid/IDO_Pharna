@@ -6,9 +6,14 @@
 	</types>
 	<types>
         <members>Account.CORE_ActionPlan__c</members>
+        <members>Contact.Degree__c</members>
+        <members>Contact.License_Number__c</members>
+		<members>CTPHARMA__Activity__c.AddressId__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
         <members>CTPHARMA__Activity__c.CTPHARMA__Status__c</members>
+        <members>CTPHARMA__Activity__c.ContactDegree__c</members>
 		<members>CTPHARMA__Activity__c.Cost__c</members>
+        <members>CTPHARMA__Activity__c.LicenseNumber__c</members>
 		<members>CTPHARMA__Activity__c.Number_of_prescriptions__c</members>
 		<members>CTPHARMA__Activity__c.Partialy_Controled_asthma_number__c</members>
 		<members>CTPHARMA__Activity__c.StartRDLink__c</members>
