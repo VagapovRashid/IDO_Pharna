@@ -10,6 +10,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Mobile Hospital Layout</layout>
-        <recordType>Account.CTPHARMA__Hospital</recordType>
+        <recordType>Account.Mobile_Hospital</recordType>
     </layoutAssignments>
 </Profile>
