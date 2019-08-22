@@ -692,7 +692,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Region__c</picklist>
+            <picklist>PHARMA_Region__c</picklist>
             <values>
                 <fullName>Central</fullName>
                 <default>false</default>
@@ -707,7 +707,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Sales_Order_Trend__c</picklist>
+            <picklist>PHARMA_Sales_Order_Trend__c</picklist>
             <values>
                 <fullName>Decrease</fullName>
                 <default>false</default>
