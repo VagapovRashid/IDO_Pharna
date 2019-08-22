@@ -349,10 +349,6 @@
         <fields>NAME</fields>
         <relatedList>Visit_Action__c.Account__c</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>CTPHARMA__ActivityData__c.AccountId__c</relatedList>
-    </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
