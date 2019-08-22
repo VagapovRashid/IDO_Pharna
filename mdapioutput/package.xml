@@ -5,7 +5,39 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+        <members>Account.Account_Status__c</members>
+        <members>Account.Actions__c</members>
+        <members>Account.Address__c</members>
+        <members>Account.Annual_admissions__c</members>
+        <members>Account.Beds__c</members>
         <members>Account.CORE_ActionPlan__c</members>
+        <members>Account.CY_Actual__c</members>
+        <members>Account.CY_Plan__c</members>
+        <members>Account.CY_SR_Forecast__c</members>
+        <members>Account.Call_Frequency__c</members>
+        <members>Account.ClinicalTrialParticipation__c</members>
+        <members>Account.Customer_Account__c</members>
+        <members>Account.Days_Since_Last_Activity__c</members>
+        <members>Account.Facility_Speciality__c</members>
+        <members>Account.Franchise__c</members>
+        <members>Account.Full_Address__c</members>
+        <members>Account.Geolocation__c</members>
+        <members>Account.Identified_for_My_Targets__c</members>
+        <members>Account.Loyalty__c</members>
+        <members>Account.Occupancy_Rate__c</members>
+        <members>Account.Open_Optt_Value__c</members>
+        <members>Account.Partnership__c</members>
+        <members>Account.Phisicians__c</members>
+        <members>Account.Projected_Sales_This_Year__c</members>
+        <members>Account.Projected_Units_this_Year__c</members>
+        <members>Account.Region__c</members>
+        <members>Account.Sales_LTD__c</members>
+        <members>Account.Sales_Order_Trend__c</members>
+        <members>Account.Sales_to_Projected__c</members>
+        <members>Account.Units_YTD__c</members>
+        <members>Account.Units_to_Projected__c</members>
+        <members>Account.Y_1_Actual__c</members>
+        <members>Account.Y_1_Plan__c</members>
         <members>Contact.Degree__c</members>
         <members>Contact.License_Number__c</members>
 		<members>CTPHARMA__Activity__c.AddressId__c</members>
