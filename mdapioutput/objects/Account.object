@@ -72,7 +72,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>PHARMA_CORE_ActionPlan__c</fullName>
+        <fullName>CORE_ActionPlan__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Action Plan</label>
@@ -459,7 +459,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Account_Status__c</picklist>
+            <picklist>PHARMA_Account_Status__c</picklist>
             <values>
                 <fullName>Defend</fullName>
                 <default>false</default>
@@ -482,7 +482,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Call_Frequency__c</picklist>
+            <picklist>PHARMA_Call_Frequency__c</picklist>
             <values>
                 <fullName>Annually</fullName>
                 <default>false</default>
@@ -501,7 +501,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>ClinicalTrialParticipation__c</picklist>
+            <picklist>PHARMA_ClinicalTrialParticipation__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>
@@ -512,7 +512,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Facility_Speciality__c</picklist>
+            <picklist>PHARMA_Facility_Speciality__c</picklist>
             <values>
                 <fullName>Alzheimer%27s disease %26 Dementia</fullName>
                 <default>false</default>
@@ -745,7 +745,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Account_Status__c</picklist>
+            <picklist>PHARMA_Account_Status__c</picklist>
             <values>
                 <fullName>Defend</fullName>
                 <default>false</default>
@@ -768,7 +768,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Call_Frequency__c</picklist>
+            <picklist>PHARMA_Call_Frequency__c</picklist>
             <values>
                 <fullName>Annually</fullName>
                 <default>false</default>
@@ -787,7 +787,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>ClinicalTrialParticipation__c</picklist>
+            <picklist>PHARMA_ClinicalTrialParticipation__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>
@@ -798,7 +798,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Facility_Speciality__c</picklist>
+            <picklist>PHARMA_Facility_Speciality__c</picklist>
             <values>
                 <fullName>Alzheimer%27s disease %26 Dementia</fullName>
                 <default>false</default>
@@ -978,7 +978,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Region__c</picklist>
+            <picklist>PHARMA_Region__c</picklist>
             <values>
                 <fullName>Central</fullName>
                 <default>false</default>
@@ -993,7 +993,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Sales_Order_Trend__c</picklist>
+            <picklist>PHARMA_Sales_Order_Trend__c</picklist>
             <values>
                 <fullName>Decrease</fullName>
                 <default>false</default>

@@ -10,7 +10,7 @@
         <members>Account.PHARMA_Address__c</members>
         <members>Account.PHARMA_Annual_admissions__c</members>
         <members>Account.PHARMA_Beds__c</members>
-        <members>Account.PHARMA_CORE_ActionPlan__c</members>
+        <members>Account.CORE_ActionPlan__c</members>
         <members>Account.PHARMA_CY_Actual__c</members>
         <members>Account.PHARMA_CY_Plan__c</members>
         <members>Account.PHARMA_CY_SR_Forecast__c</members>
