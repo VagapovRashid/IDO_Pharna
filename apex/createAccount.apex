@@ -1,6 +1,10 @@
-Account account = new Account();
+List<Account> accounts = [SELECT Name, AccountNumber, Site, AccountSource, Account_Status__c, Annual_admissions__c, AnnualRevenue, Beds__c, BillingStreet, BillingState, BillingPostalCode, BillingLongitude, BillingLatitude, BillingGeocodeAccuracy, BillingCountry, BillingCity, Call_Frequency__c, Customer_Account__c, CY_Actual__c, CY_Plan__c, CY_SR_Forecast__c, Jigsaw, Description, CTPHARMA__DivisionAlphaCategory__c, CTPHARMA__DivisionAlphaTargetCheck__c, CTPHARMA__DivisionBetaCategory__c, CTPHARMA__DivisionBetaTargetCheck__c, NumberOfEmployees, Facility_Speciality__c, Fax, Geolocation__c, CTPHARMA__HasChildAccounts__c, Identified_for_My_Targets__c, Industry, CTPHARMA__IsAutoTargetCheck__c, Occupancy_Rate__c, Open_Optt_Value__c, Ownership, Phisicians__c, Phone, Projected_Sales_This_Year__c, Projected_Units_this_Year__c, Rating, Region__c, Sales_to_Projected__c, Sales_LTD__c, Sales_Order_Trend__c, Sic, SicDesc, CTPHARMA__TargetUserIds__c, TickerSymbol, Type, Units_to_Projected__c, Units_YTD__c, Website, Y_1_Actual__c, Y_1_Plan__c FROM Account WHERE Name = '*United Facility Network'];
+
+Id recordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Hospital').getRecordTypeId();
+Account account = accounts[0];
 
 account.Name = '*United Facility Network';
+account.RecordTypeId = recordTypeId;
 account.Site = 'San Francisco';
 account.PHARMA_Account_Status__c = 'Growth';
 account.PHARMA_Annual_admissions__c = 25000;
@@ -43,4 +47,4 @@ account.Website = 'www.united.org';
 account.PHARMA_Geolocation__Latitude__s = 37.791013;
 account.PHARMA_Geolocation__Longitude__s = -122.400219;
 
-insert account;
+update account;

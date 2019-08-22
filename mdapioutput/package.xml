@@ -7,7 +7,6 @@
 	<types>
         <members>Account.PHARMA_Account_Status__c</members>
         <members>Account.PHARMA_Actions__c</members>
-        <members>Account.PHARMA_Address__c</members>
         <members>Account.PHARMA_Annual_admissions__c</members>
         <members>Account.PHARMA_Beds__c</members>
         <members>Account.CORE_ActionPlan__c</members>
@@ -20,7 +19,6 @@
         <members>Account.PHARMA_Days_Since_Last_Activity__c</members>
         <members>Account.PHARMA_Facility_Speciality__c</members>
         <members>Account.PHARMA_Franchise__c</members>
-        <members>Account.PHARMA_Full_Address__c</members>
         <members>Account.PHARMA_Geolocation__c</members>
         <members>Account.PHARMA_Identified_for_My_Targets__c</members>
         <members>Account.PHARMA_Loyalty__c</members>

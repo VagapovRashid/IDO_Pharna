@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "*United Facility Network",
+            "Type": "national chains",
+            "Phone": "(800) 667-6389",
+            "Website": "www.united.org",
+            "AnnualRevenue": 200000000,
+            "NumberOfEmployees": 2100,
+            "BillingCity": "San Francisco",
+            "BillingCountry": "United States",
+            "BillingPostalCode": "94104",
+            "BillingState": "CA",
+            "BillingStreet": "1 Market St",
+            "ShippingCity": "San Francisco",
+            "ShippingCountry": "United States",
+            "ShippingPostalCode": "94104",
+            "ShippingState": "CA",
+            "ShippingStreet": "1 Market St"
+        }
+    ]
+}
