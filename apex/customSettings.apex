@@ -8,8 +8,8 @@ newTop.clm__SortOrder__c = ',,,,,,,,,,,,,,,';
 upsert newTop;
 
 clm__ApplicationSetup__c newApp = clm__ApplicationSetup__c.getOrgDefaults();
-newApp.clm__AccountFullAddressAPIField__c = 'AccountAddress__c';
-newApp.clm__AccountGeolocationAPIField__c = 'Geolocation__c';
+newApp.clm__AccountFullAddressAPIField__c = 'BillingAddress';
+newApp.clm__AccountGeolocationAPIField__c = 'PHARMA_Geolocation__c';
 newApp.clm__ActivityDoneAPI__c = 'CTPHARMA__IsDone__c';
 newApp.clm__ActivityIsLockedAPI__c = 'CTPHARMA__IsLocked__c';
 newApp.clm__ActivityDescriptionAPI__c = 'CTPHARMA__Description__c';
