@@ -47,4 +47,13 @@ account.Website = 'www.united.org';
 account.PHARMA_Geolocation__Latitude__s = 37.791013;
 account.PHARMA_Geolocation__Longitude__s = -122.400219;
 
+Account account2 = new Account();
+
+
+account2.Name = '*United Medical West';
+account2.PHARMA_Geolocation__Latitude__s = 37.764271;
+account2.PHARMA_Geolocation__Longitude__s = -122.427066;
+
+
 update account;
+update account2;
