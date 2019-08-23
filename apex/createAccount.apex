@@ -56,4 +56,4 @@ account2.PHARMA_Geolocation__Longitude__s = -122.427066;
 
 
 update account;
-update account2;
+insert account2;
