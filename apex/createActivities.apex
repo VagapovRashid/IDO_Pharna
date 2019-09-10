@@ -1,25 +1,17 @@
 List<CTPHARMA__Activity__c> activities = new List<CTPHARMA__Activity__c>();
 
-List<String> statuses = new List<String>();
-statuses.add('Planned');
-statuses.add('In Progress');
-statuses.add('Finished');
-statuses.add('Canceled');
+Id visitId = Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('1:1 Visit').getRecordTypeId();
+Id visitKamId = Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Visit KAM').getRecordTypeId();
+Id consumerHealthId = Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Consumer Health').getRecordTypeId();
 
-List<Id> recordTypeIds = new List<Id>();
-recordTypeIds.add(Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Visit KAM').getRecordTypeId());
-recordTypeIds.add(Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Consumer Health').getRecordTypeId());
-recordTypeIds.add(Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Mobile Consumer Health').getRecordTypeId());
-recordTypeIds.add(Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Mobile Visit KAM').getRecordTypeId());
-recordTypeIds.add(Schema.SObjectType.CTPHARMA__Activity__c.getRecordTypeInfosByName().get('Mobile Visit').getRecordTypeId());
+CTPHARMA__Activity__c newActivity = new CTPHARMA__Activity__c();
+newActivity.CTPHARMA__StartDate__c = System.now().addHours(1);
 
-for(Id recordTypeId : recordTypeIds){
-    for(String status : statuses){
-        CTPHARMA__Activity__c newActivity = new CTPHARMA__Activity__c();
-        newActivity.RecordTypeId = recordTypeId;
-        newActivity.CTPHARMA__Status__c = status;
-        activities.add(newActivity);
-    }
-}
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = visitId, CTPHARMA__Status__c = 'Planned', CTPHARMA__StartDate__c = System.now().addHours(1)));
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = visitId, CTPHARMA__Status__c = 'Planned', CTPHARMA__StartDate__c = System.now().addHours(2)));
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = visitId, CTPHARMA__Status__c = 'Planned', CTPHARMA__StartDate__c = System.now().addHours(3)));
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = visitKamId, CTPHARMA__Status__c = 'In Progress', CTPHARMA__StartDate__c = System.now().addHours(4)));
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = visitKamId, CTPHARMA__Status__c = 'In Progress', CTPHARMA__StartDate__c = System.now().addHours(5)));
+activities.add(new CTPHARMA__Activity__c(RecordTypeId = consumerHealthId, CTPHARMA__Status__c = 'Finished', CTPHARMA__StartDate__c = System.now().addHours(6)));
 
 insert activities;

@@ -109,6 +109,12 @@
         <name>RemoteSiteSetting</name>
     </types>
 	<types>
+		<members>CT_Reports</members>
+		<members>CT_Reports/ActivitiesbyStatus</members>
+		<members>CT_Reports/ActivitiesbyType</members>
+		<name>Report</name>
+	</types>
+	<types>
         <members>ActivityDocSetting__mdt</members>
         <members>Address__c</members>		
         <members>CORE_ActionPlan__c</members>
