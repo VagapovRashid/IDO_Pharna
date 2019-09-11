@@ -41,6 +41,7 @@
         <members>Contact.Degree__c</members>
         <members>Contact.License_Number__c</members>
 		<members>CTPHARMA__Activity__c.AddressId__c</members>
+		<members>CTPHARMA__Activity__c.Audit__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
         <members>CTPHARMA__Activity__c.CTPHARMA__Status__c</members>
         <members>CTPHARMA__Activity__c.ContactDegree__c</members>
