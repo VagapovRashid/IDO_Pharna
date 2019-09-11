@@ -38,6 +38,7 @@
         <members>Account.PHARMA_Units_to_Projected__c</members>
         <members>Account.PHARMA_Y_1_Actual__c</members>
         <members>Account.PHARMA_Y_1_Plan__c</members>
+        <members>Contact.ContactId__c</members>
         <members>Contact.Degree__c</members>
         <members>Contact.License_Number__c</members>
 		<members>CTPHARMA__Activity__c.AddressId__c</members>
