@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>TestDaPackage</members>
+		<members>SignatureCheckController</members>
+		<members>SampleAuditController</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -138,6 +140,7 @@
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
         <members>Store__c</members>
+        <members>Transfer__c</members>
         <members>Visit_Action__c</members>
         <members>VisitDialog_Layout__mdt</members>
         <members>VisitDialog_Sections__mdt</members>
