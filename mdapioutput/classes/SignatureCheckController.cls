@@ -128,24 +128,24 @@ public with sharing class SignatureCheckController {
         return Database.query(query);
     }
 
-    public List<Transfer__c> getTransfers(List<String> states) {
-        String query = 'SELECT Id FROM Transfer__c WHERE';
-        query += ' TransferDate__c = ' + getSoqlDate(transferDate);
-        query += ' AND RecordTypeId = \'' + activity.RecordTypeId + '\'';
-
-        for (Integer i = 0; i < states.size(); i++) {
-            if (i == 0) {
-                query += ' AND (SignatureConfirmation__c = \'' + states[0] + '\'';
-            } else {
-                query += ' OR SignatureConfirmation__c = \'' + states[i] + '\'';
-            }
-            if (i == states.size() - 1) {
-                query += ')';
-            }
-        }
-
-        return Database.query(query);
-    }
+//    public List<Transfer__c> getTransfers(List<String> states) {
+//        String query = 'SELECT Id FROM Transfer__c WHERE';
+//        query += ' TransferDate__c = ' + getSoqlDate(transferDate);
+//        query += ' AND RecordTypeId = \'' + activity.RecordTypeId + '\'';
+//
+//        for (Integer i = 0; i < states.size(); i++) {
+//            if (i == 0) {
+//                query += ' AND (SignatureConfirmation__c = \'' + states[0] + '\'';
+//            } else {
+//                query += ' OR SignatureConfirmation__c = \'' + states[i] + '\'';
+//            }
+//            if (i == states.size() - 1) {
+//                query += ')';
+//            }
+//        }
+//
+//        return Database.query(query);
+//    }
 
     public static String getSoqlDate(Date curDate) {
         return Datetime.newInstance(curDate.year(), curDate.month(), curDate.day()).format('yyyy-MM-dd\'T\'HH:mm:ss\'Z\'');
