@@ -13,12 +13,12 @@ public with sharing class SignatureCheckController {
     public Map<Id, CTPHARMA__Activity__c> activityMap { get; set; }
     public Map<Id, CTPHARMA__Activity__c> confirmedActivityMap { get; set; }
     public String signatureType { get; set; }
-    public List<AttachmentWrapper> attachments { get; set; }
-    public List<List<AttachmentWrapper>> selectedAttachments { get; set; }
-    public List<AttachmentWrapper> allSelectedAttachments { get; set; }
-    public List<AttachmentWrapper> checkedSelectedAttachments { get; set; }
-    public AttachmentWrapper checkedAttachment { get; set; }
-    public AttachmentWrapper checkedSelectedAttachment { get; set; }
+//    public List<AttachmentWrapper> attachments { get; set; }
+//    public List<List<AttachmentWrapper>> selectedAttachments { get; set; }
+//    public List<AttachmentWrapper> allSelectedAttachments { get; set; }
+//    public List<AttachmentWrapper> checkedSelectedAttachments { get; set; }
+//    public AttachmentWrapper checkedAttachment { get; set; }
+//    public AttachmentWrapper checkedSelectedAttachment { get; set; }
     public Map<String, String> colors { get; set; }
     public Map<Id, Transfer__c> transferMap { get; set; }
     private List<CTPHARMA__Activity__c> activities;
@@ -38,57 +38,57 @@ public with sharing class SignatureCheckController {
         return options;
     }
 
-    public SignatureCheckController() {
-        contact = new Contact();
-        System.debug(ApexPages.currentPage().getParameters().get('contact_id'));
-        if(ApexPages.currentPage().getParameters().get('contact_id') != '') {
-            contact.ContactId__c = ApexPages.currentPage().getParameters().get('contact_id');
-        }
-        System.debug('contact');
-        System.debug(contact);
-        System.debug(Url.getCurrentRequestUrl());
-        filterType = 'Activity';
-        transferDate = Date.today();
-        transfer = new Transfer__c();
-        activityStartDate = Date.today();
-        activityEndDate = Date.today();
-        activity = new CTPHARMA__Activity__c();
-        attachments = new List<AttachmentWrapper>();
-        selectedAttachments = new List<List<AttachmentWrapper>>();
-        activities = new List<CTPHARMA__Activity__c>();
-        activityMap = new Map<Id, CTPHARMA__Activity__c>();
-        transfers = new List<Transfer__c>();
-        transferMap = new Map<Id, Transfer__c>();
-        colors = new Map<String, String>();
-        colors.put('Confirmed', 'confirmed');
-        colors.put('Declined', 'declined');
-        colors.put('In Review', 'review');
-        colors.put('Not Reviewed', 'new');
-        allSelectedAttachments = new List<AttachmentWrapper>();
-        checkedSelectedAttachments = new List<AttachmentWrapper>();
-        checkedAttachment = new AttachmentWrapper();
-        checkedSelectedAttachment = new AttachmentWrapper();
-    }
-
-    public void countSelectedAttachments(){
-        allSelectedAttachments = new List<AttachmentWrapper>();
-        checkedSelectedAttachments = new List<AttachmentWrapper>();
-        for(AttachmentWrapper attachment : attachments){
-            if(attachment.checked){
-                allSelectedAttachments.add(attachment);
-                checkedAttachment = attachment;
-            }
-        }
-        for(List<AttachmentWrapper> attachments : selectedAttachments){
-            for(AttachmentWrapper attachment : attachments){
-                if(attachment.checked){
-                    checkedSelectedAttachments.add(attachment);
-                    checkedSelectedAttachment = attachment;
-                }
-            }
-        }
-
-    }
+//    public SignatureCheckController() {
+//        contact = new Contact();
+//        System.debug(ApexPages.currentPage().getParameters().get('contact_id'));
+//        if(ApexPages.currentPage().getParameters().get('contact_id') != '') {
+//            contact.ContactId__c = ApexPages.currentPage().getParameters().get('contact_id');
+//        }
+//        System.debug('contact');
+//        System.debug(contact);
+//        System.debug(Url.getCurrentRequestUrl());
+//        filterType = 'Activity';
+//        transferDate = Date.today();
+//        transfer = new Transfer__c();
+//        activityStartDate = Date.today();
+//        activityEndDate = Date.today();
+//        activity = new CTPHARMA__Activity__c();
+//        attachments = new List<AttachmentWrapper>();
+//        selectedAttachments = new List<List<AttachmentWrapper>>();
+//        activities = new List<CTPHARMA__Activity__c>();
+//        activityMap = new Map<Id, CTPHARMA__Activity__c>();
+//        transfers = new List<Transfer__c>();
+//        transferMap = new Map<Id, Transfer__c>();
+//        colors = new Map<String, String>();
+//        colors.put('Confirmed', 'confirmed');
+//        colors.put('Declined', 'declined');
+//        colors.put('In Review', 'review');
+//        colors.put('Not Reviewed', 'new');
+//        allSelectedAttachments = new List<AttachmentWrapper>();
+//        checkedSelectedAttachments = new List<AttachmentWrapper>();
+//        checkedAttachment = new AttachmentWrapper();
+//        checkedSelectedAttachment = new AttachmentWrapper();
+//    }
+//
+//    public void countSelectedAttachments(){
+//        allSelectedAttachments = new List<AttachmentWrapper>();
+//        checkedSelectedAttachments = new List<AttachmentWrapper>();
+//        for(AttachmentWrapper attachment : attachments){
+//            if(attachment.checked){
+//                allSelectedAttachments.add(attachment);
+//                checkedAttachment = attachment;
+//            }
+//        }
+//        for(List<AttachmentWrapper> attachments : selectedAttachments){
+//            for(AttachmentWrapper attachment : attachments){
+//                if(attachment.checked){
+//                    checkedSelectedAttachments.add(attachment);
+//                    checkedSelectedAttachment = attachment;
+//                }
+//            }
+//        }
+//
+//    }
 
 //    public void search() {
 //        if (filterType == 'Activity') {
@@ -107,26 +107,26 @@ public with sharing class SignatureCheckController {
 //        updateAttachments();
 //    }
 
-    public List<CTPHARMA__Activity__c> getActivities(List<String> states) {
-        String query = 'SELECT Id, Audit__c, CTPHARMA__StartDate__c, CTPHARMA__EndDate__c, Name  FROM CTPHARMA__Activity__c WHERE';
-        query += ' CTPHARMA__StartDate__c >= ' + getSoqlDate(activityStartDate);
-        query += ' AND CTPHARMA__EndDate__c <= ' + getSoqlDate(activityEndDate);
-        query += ' AND RecordTypeId = \'' + activity.RecordTypeId + '\'';
-        query += ' AND CTPHARMA__ContactId__c = \'' + contact.ContactId__c + '\'';
-
-        for (Integer i = 0; i < states.size(); i++) {
-            if (i == 0) {
-                query += ' AND (Audit__c = \'' + states[0] + '\'';
-            } else {
-                query += ' OR Audit__c = \'' + states[i] + '\'';
-            }
-            if (i == states.size() - 1) {
-                query += ')';
-            }
-        }
-
-        return Database.query(query);
-    }
+//    public List<CTPHARMA__Activity__c> getActivities(List<String> states) {
+//        String query = 'SELECT Id, Audit__c, CTPHARMA__StartDate__c, CTPHARMA__EndDate__c, Name  FROM CTPHARMA__Activity__c WHERE';
+//        query += ' CTPHARMA__StartDate__c >= ' + getSoqlDate(activityStartDate);
+//        query += ' AND CTPHARMA__EndDate__c <= ' + getSoqlDate(activityEndDate);
+//        query += ' AND RecordTypeId = \'' + activity.RecordTypeId + '\'';
+//        query += ' AND CTPHARMA__ContactId__c = \'' + contact.ContactId__c + '\'';
+//
+//        for (Integer i = 0; i < states.size(); i++) {
+//            if (i == 0) {
+//                query += ' AND (Audit__c = \'' + states[0] + '\'';
+//            } else {
+//                query += ' OR Audit__c = \'' + states[i] + '\'';
+//            }
+//            if (i == states.size() - 1) {
+//                query += ')';
+//            }
+//        }
+//
+//        return Database.query(query);
+//    }
 
 //    public List<Transfer__c> getTransfers(List<String> states) {
 //        String query = 'SELECT Id FROM Transfer__c WHERE';
@@ -147,9 +147,9 @@ public with sharing class SignatureCheckController {
 //        return Database.query(query);
 //    }
 
-    public static String getSoqlDate(Date curDate) {
-        return Datetime.newInstance(curDate.year(), curDate.month(), curDate.day()).format('yyyy-MM-dd\'T\'HH:mm:ss\'Z\'');
-    }
+//    public static String getSoqlDate(Date curDate) {
+//        return Datetime.newInstance(curDate.year(), curDate.month(), curDate.day()).format('yyyy-MM-dd\'T\'HH:mm:ss\'Z\'');
+//    }
 
 //    public List<List<AttachmentWrapper>> getAttachmentWrappers() {
 //        List<List<AttachmentWrapper>> result = new List<List<AttachmentWrapper>>();
@@ -283,9 +283,9 @@ public with sharing class SignatureCheckController {
 //        search();
 //    }
 
-    public class AttachmentWrapper {
-        public Attachment attachment { get; set; }
-        public Boolean checked { get; set; }
-        public String color { get; set; }
-    }
+//    public class AttachmentWrapper {
+//        public Attachment attachment { get; set; }
+//        public Boolean checked { get; set; }
+//        public String color { get; set; }
+//    }
 }
