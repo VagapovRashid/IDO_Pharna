@@ -232,56 +232,56 @@ public with sharing class SignatureCheckController {
         selectedAttachments = getAttachmentWrappers();
     }
 
-    public void confirm() {
-        updateChecked('Confirmed');
-    }
+//    public void confirm() {
+//        updateChecked('Confirmed');
+//    }
 
-    public void decline() {
-        updateChecked('Declined');
-    }
+//    public void decline() {
+//        updateChecked('Declined');
+//    }
 
     public void doNothing(){}
 
-    public void updateChecked(String auditResult) {
-        if (filterType == 'Activity') {
-            List<CTPHARMA__Activity__c> activitiesToUpdate = new List<CTPHARMA__Activity__c>();
-
-            for (AttachmentWrapper attachment : attachments) {
-                if (attachment.checked) {
-                    activitiesToUpdate.add(activityMap.get(attachment.attachment.ParentId));
-                }
-            }
-
-            System.debug(attachments);
-
-            for (CTPHARMA__Activity__c activity : activitiesToUpdate) {
-                activity.Audit__c = auditResult;
-            }
-
-            List<SampleDrop__c> sampleDrops = [SELECT Id, Name, SignatureConfirmation__c FROM SampleDrop__c WHERE ActivityId__c IN :activitiesToUpdate];
-            for (SampleDrop__c sampleDrop : sampleDrops) {
-                sampleDrop.SignatureConfirmation__c = auditResult;
-            }
-
-            update sampleDrops;
-            update activitiesToUpdate;
-        } else {
-            Set<Transfer__c> transfersToUpdate = new Set<Transfer__c>();
-
-            for (AttachmentWrapper attachment : attachments) {
-                if (attachment.checked) {
-                    transfersToUpdate.add(transferMap.get(attachment.attachment.ParentId));
-                }
-            }
-
-            for (Transfer__c transfer : transfersToUpdate) {
-                transfer.SignatureConfirmation__c = auditResult;
-            }
-
-            update new List<Transfer__c>(transfersToUpdate);
-        }
-        search();
-    }
+//    public void updateChecked(String auditResult) {
+//        if (filterType == 'Activity') {
+//            List<CTPHARMA__Activity__c> activitiesToUpdate = new List<CTPHARMA__Activity__c>();
+//
+//            for (AttachmentWrapper attachment : attachments) {
+//                if (attachment.checked) {
+//                    activitiesToUpdate.add(activityMap.get(attachment.attachment.ParentId));
+//                }
+//            }
+//
+//            System.debug(attachments);
+//
+//            for (CTPHARMA__Activity__c activity : activitiesToUpdate) {
+//                activity.Audit__c = auditResult;
+//            }
+//
+//            List<SampleDrop__c> sampleDrops = [SELECT Id, Name, SignatureConfirmation__c FROM SampleDrop__c WHERE ActivityId__c IN :activitiesToUpdate];
+//            for (SampleDrop__c sampleDrop : sampleDrops) {
+//                sampleDrop.SignatureConfirmation__c = auditResult;
+//            }
+//
+//            update sampleDrops;
+//            update activitiesToUpdate;
+//        } else {
+//            Set<Transfer__c> transfersToUpdate = new Set<Transfer__c>();
+//
+//            for (AttachmentWrapper attachment : attachments) {
+//                if (attachment.checked) {
+//                    transfersToUpdate.add(transferMap.get(attachment.attachment.ParentId));
+//                }
+//            }
+//
+//            for (Transfer__c transfer : transfersToUpdate) {
+//                transfer.SignatureConfirmation__c = auditResult;
+//            }
+//
+//            update new List<Transfer__c>(transfersToUpdate);
+//        }
+//        search();
+//    }
 
     public class AttachmentWrapper {
         public Attachment attachment { get; set; }
