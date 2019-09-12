@@ -3,40 +3,40 @@
  */
 
 public with sharing class SignatureCheckController {
-    public Contact contact { get; set; }
-    public String filterType { get; set; }
-    public Date transferDate { get; set; }
-    public Transfer__c transfer { get; set; }
-    public Date activityStartDate { get; set; }
-    public Date activityEndDate { get; set; }
-    public CTPHARMA__Activity__c activity { get; set; }
-    public Map<Id, CTPHARMA__Activity__c> activityMap { get; set; }
-    public Map<Id, CTPHARMA__Activity__c> confirmedActivityMap { get; set; }
-    public String signatureType { get; set; }
-//    public List<AttachmentWrapper> attachments { get; set; }
-//    public List<List<AttachmentWrapper>> selectedAttachments { get; set; }
-//    public List<AttachmentWrapper> allSelectedAttachments { get; set; }
-//    public List<AttachmentWrapper> checkedSelectedAttachments { get; set; }
-//    public AttachmentWrapper checkedAttachment { get; set; }
-//    public AttachmentWrapper checkedSelectedAttachment { get; set; }
-    public Map<String, String> colors { get; set; }
-    public Map<Id, Transfer__c> transferMap { get; set; }
-    private List<CTPHARMA__Activity__c> activities;
-    private List<Transfer__c> transfers;
+//    public Contact contact { get; set; }
+//    public String filterType { get; set; }
+//    public Date transferDate { get; set; }
+//    public Transfer__c transfer { get; set; }
+//    public Date activityStartDate { get; set; }
+//    public Date activityEndDate { get; set; }
+//    public CTPHARMA__Activity__c activity { get; set; }
+//    public Map<Id, CTPHARMA__Activity__c> activityMap { get; set; }
+//    public Map<Id, CTPHARMA__Activity__c> confirmedActivityMap { get; set; }
+//    public String signatureType { get; set; }
+////    public List<AttachmentWrapper> attachments { get; set; }
+////    public List<List<AttachmentWrapper>> selectedAttachments { get; set; }
+////    public List<AttachmentWrapper> allSelectedAttachments { get; set; }
+////    public List<AttachmentWrapper> checkedSelectedAttachments { get; set; }
+////    public AttachmentWrapper checkedAttachment { get; set; }
+////    public AttachmentWrapper checkedSelectedAttachment { get; set; }
+//    public Map<String, String> colors { get; set; }
+//    public Map<Id, Transfer__c> transferMap { get; set; }
+//    private List<CTPHARMA__Activity__c> activities;
+//    private List<Transfer__c> transfers;
 
-    public List<SelectOption> getFilterTypes() {
-        List<SelectOption> options = new List<SelectOption>();
-        options.add(new SelectOption('Activity', 'Activity'));
-        options.add(new SelectOption('Transfer', 'Transfer'));
-        return options;
-    }
+//    public List<SelectOption> getFilterTypes() {
+//        List<SelectOption> options = new List<SelectOption>();
+//        options.add(new SelectOption('Activity', 'Activity'));
+//        options.add(new SelectOption('Transfer', 'Transfer'));
+//        return options;
+//    }
 
-    public List<SelectOption> getSignatureTypes() {
-        List<SelectOption> options = new List<SelectOption>();
-        options.add(new SelectOption('Sample Drop', 'Sample Drop'));
-        options.add(new SelectOption('Sample Delivery', 'Sample Delivery'));
-        return options;
-    }
+//    public List<SelectOption> getSignatureTypes() {
+//        List<SelectOption> options = new List<SelectOption>();
+//        options.add(new SelectOption('Sample Drop', 'Sample Drop'));
+//        options.add(new SelectOption('Sample Delivery', 'Sample Delivery'));
+//        return options;
+//    }
 
 //    public SignatureCheckController() {
 //        contact = new Contact();
@@ -240,7 +240,7 @@ public with sharing class SignatureCheckController {
 //        updateChecked('Declined');
 //    }
 
-    public void doNothing(){}
+//    public void doNothing(){}
 
 //    public void updateChecked(String auditResult) {
 //        if (filterType == 'Activity') {
