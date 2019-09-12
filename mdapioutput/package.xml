@@ -3,7 +3,6 @@
 	<types>
 		<members>TestDaPackage</members>
 		<members>SignatureCheckController</members>
-		<members>SampleAuditController</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
