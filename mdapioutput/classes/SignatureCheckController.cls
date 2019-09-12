@@ -151,46 +151,46 @@ public with sharing class SignatureCheckController {
         return Datetime.newInstance(curDate.year(), curDate.month(), curDate.day()).format('yyyy-MM-dd\'T\'HH:mm:ss\'Z\'');
     }
 
-    public List<List<AttachmentWrapper>> getAttachmentWrappers() {
-        List<List<AttachmentWrapper>> result = new List<List<AttachmentWrapper>>();
-        List<AttachmentWrapper> bufAttachments = new List<AttachmentWrapper>();
-        Map<Id, CTPHARMA__Activity__c> confirmedActivities = new Map<Id, CTPHARMA__Activity__c>([SELECT Id, Audit__c FROM CTPHARMA__Activity__c WHERE CTPHARMA__ContactId__c = :contact.ContactId__c AND Audit__c = 'Confirmed']);
-        Map<Id, Transfer__c> confirmedTransfers = new Map<Id, Transfer__c>([SELECT Id, SignatureConfirmation__c FROM Transfer__c WHERE SignatureConfirmation__c = 'Confirmed']);
-        List<Attachment> confirmedAttachments = [SELECT Id, ParentId FROM Attachment WHERE ParentId IN :confirmedActivities.keySet()];// OR ParentId IN :confirmedTransfers.keySet()];
-        List<AttachmentWrapper> confirmedAttachmentWrappers = new List<AttachmentWrapper>();
-        for (Attachment curAttachment : confirmedAttachments) {
-            AttachmentWrapper wrapper = new AttachmentWrapper();
-            wrapper.attachment = curAttachment;
-            wrapper.checked = false;
-            wrapper.color = '';
-
-            if (confirmedActivities.get(curAttachment.ParentId) != null) {
-                String key = confirmedActivities.get(curAttachment.ParentId).Audit__c;
-                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
-            }
-
-            if (confirmedTransfers.get(curAttachment.ParentId) != null) {
-                String key = confirmedTransfers.get(curAttachment.ParentId).SignatureConfirmation__c;
-                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
-            }
-
-            confirmedAttachmentWrappers.add(wrapper);
-        }
-        for (AttachmentWrapper attachment : confirmedAttachmentWrappers) {
-
-            if (bufAttachments.size() < 4) {
-                bufAttachments.add(attachment);
-            } else {
-                result.add(bufAttachments);
-                bufAttachments = new List<AttachmentWrapper>();
-            }
-        }
-        if (bufAttachments.size() != 0) {
-            result.add(bufAttachments);
-        }
-
-        return result;
-    }
+//    public List<List<AttachmentWrapper>> getAttachmentWrappers() {
+//        List<List<AttachmentWrapper>> result = new List<List<AttachmentWrapper>>();
+//        List<AttachmentWrapper> bufAttachments = new List<AttachmentWrapper>();
+//        Map<Id, CTPHARMA__Activity__c> confirmedActivities = new Map<Id, CTPHARMA__Activity__c>([SELECT Id, Audit__c FROM CTPHARMA__Activity__c WHERE CTPHARMA__ContactId__c = :contact.ContactId__c AND Audit__c = 'Confirmed']);
+//        Map<Id, Transfer__c> confirmedTransfers = new Map<Id, Transfer__c>([SELECT Id, SignatureConfirmation__c FROM Transfer__c WHERE SignatureConfirmation__c = 'Confirmed']);
+//        List<Attachment> confirmedAttachments = [SELECT Id, ParentId FROM Attachment WHERE ParentId IN :confirmedActivities.keySet()];// OR ParentId IN :confirmedTransfers.keySet()];
+//        List<AttachmentWrapper> confirmedAttachmentWrappers = new List<AttachmentWrapper>();
+//        for (Attachment curAttachment : confirmedAttachments) {
+//            AttachmentWrapper wrapper = new AttachmentWrapper();
+//            wrapper.attachment = curAttachment;
+//            wrapper.checked = false;
+//            wrapper.color = '';
+//
+//            if (confirmedActivities.get(curAttachment.ParentId) != null) {
+//                String key = confirmedActivities.get(curAttachment.ParentId).Audit__c;
+//                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
+//            }
+//
+//            if (confirmedTransfers.get(curAttachment.ParentId) != null) {
+//                String key = confirmedTransfers.get(curAttachment.ParentId).SignatureConfirmation__c;
+//                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
+//            }
+//
+//            confirmedAttachmentWrappers.add(wrapper);
+//        }
+//        for (AttachmentWrapper attachment : confirmedAttachmentWrappers) {
+//
+//            if (bufAttachments.size() < 4) {
+//                bufAttachments.add(attachment);
+//            } else {
+//                result.add(bufAttachments);
+//                bufAttachments = new List<AttachmentWrapper>();
+//            }
+//        }
+//        if (bufAttachments.size() != 0) {
+//            result.add(bufAttachments);
+//        }
+//
+//        return result;
+//    }
 
 //    private void updateAttachments() {
 //        Set<Id> attachmentParentIds = new Set<Id>();
