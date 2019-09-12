@@ -90,22 +90,22 @@ public with sharing class SignatureCheckController {
 
     }
 
-    public void search() {
-        if (filterType == 'Activity') {
-            activities = getActivities(new List<String>{
-                    'Not Reviewed', ''
-            });
-            activityMap = new Map<Id, CTPHARMA__Activity__c>(activities);
-            confirmedActivityMap = new Map<Id, CTPHARMA__Activity__c>([SELECT Id, Audit__c, CTPHARMA__StartDate__c, CTPHARMA__EndDate__c, Name FROM CTPHARMA__Activity__c WHERE Audit__c = 'Confirmed']);
-        } else {
-            transfers = getTransfers(new List<String>{
-                    'Not Reviewed', ''
-            });
-            transferMap = new Map<Id, Transfer__c>(transfers);
-        }
-
-        updateAttachments();
-    }
+//    public void search() {
+//        if (filterType == 'Activity') {
+//            activities = getActivities(new List<String>{
+//                    'Not Reviewed', ''
+//            });
+//            activityMap = new Map<Id, CTPHARMA__Activity__c>(activities);
+//            confirmedActivityMap = new Map<Id, CTPHARMA__Activity__c>([SELECT Id, Audit__c, CTPHARMA__StartDate__c, CTPHARMA__EndDate__c, Name FROM CTPHARMA__Activity__c WHERE Audit__c = 'Confirmed']);
+//        } else {
+//            transfers = getTransfers(new List<String>{
+//                    'Not Reviewed', ''
+//            });
+//            transferMap = new Map<Id, Transfer__c>(transfers);
+//        }
+//
+//        updateAttachments();
+//    }
 
     public List<CTPHARMA__Activity__c> getActivities(List<String> states) {
         String query = 'SELECT Id, Audit__c, CTPHARMA__StartDate__c, CTPHARMA__EndDate__c, Name  FROM CTPHARMA__Activity__c WHERE';
@@ -192,45 +192,45 @@ public with sharing class SignatureCheckController {
         return result;
     }
 
-    private void updateAttachments() {
-        Set<Id> attachmentParentIds = new Set<Id>();
-        attachments = new List<AttachmentWrapper>();
-
-        if (filterType == 'Activity') {
-            Id recordTypeId = Schema.SObjectType.SampleDrop__c.getRecordTypeInfosByName().get(signatureType).getRecordTypeId();
-            List<SampleDrop__c> sampleDrops = [SELECT Id, ActivityId__c FROM SampleDrop__c WHERE ActivityId__c IN :activities AND RecordTypeId = :recordTypeId];
-            for (SampleDrop__c sampleDrop : sampleDrops) {
-                attachmentParentIds.add(sampleDrop.ActivityId__c);
-            }
-        } else {
-            for (Transfer__c transfer : transfers) {
-                attachmentParentIds.add(transfer.Id);
-            }
-        }
-        List<Attachment> curAttachments = [SELECT Id, ParentId FROM Attachment WHERE ParentId IN :attachmentParentIds];
-
-        for (Attachment curAttachment : curAttachments) {
-            AttachmentWrapper wrapper = new AttachmentWrapper();
-            wrapper.attachment = curAttachment;
-            wrapper.checked = false;
-            wrapper.color = '';
-
-            if (activityMap.get(curAttachment.ParentId) != null) {
-                String key = activityMap.get(curAttachment.ParentId).Audit__c;
-                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
-            }
-
-            if (transferMap.get(curAttachment.ParentId) != null) {
-                String key = transferMap.get(curAttachment.ParentId).SignatureConfirmation__c;
-                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
-            }
-
-            attachments.add(wrapper);
-
-        }
-
-        selectedAttachments = getAttachmentWrappers();
-    }
+//    private void updateAttachments() {
+//        Set<Id> attachmentParentIds = new Set<Id>();
+//        attachments = new List<AttachmentWrapper>();
+//
+//        if (filterType == 'Activity') {
+//            Id recordTypeId = Schema.SObjectType.SampleDrop__c.getRecordTypeInfosByName().get(signatureType).getRecordTypeId();
+//            List<SampleDrop__c> sampleDrops = [SELECT Id, ActivityId__c FROM SampleDrop__c WHERE ActivityId__c IN :activities AND RecordTypeId = :recordTypeId];
+//            for (SampleDrop__c sampleDrop : sampleDrops) {
+//                attachmentParentIds.add(sampleDrop.ActivityId__c);
+//            }
+//        } else {
+//            for (Transfer__c transfer : transfers) {
+//                attachmentParentIds.add(transfer.Id);
+//            }
+//        }
+//        List<Attachment> curAttachments = [SELECT Id, ParentId FROM Attachment WHERE ParentId IN :attachmentParentIds];
+//
+//        for (Attachment curAttachment : curAttachments) {
+//            AttachmentWrapper wrapper = new AttachmentWrapper();
+//            wrapper.attachment = curAttachment;
+//            wrapper.checked = false;
+//            wrapper.color = '';
+//
+//            if (activityMap.get(curAttachment.ParentId) != null) {
+//                String key = activityMap.get(curAttachment.ParentId).Audit__c;
+//                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
+//            }
+//
+//            if (transferMap.get(curAttachment.ParentId) != null) {
+//                String key = transferMap.get(curAttachment.ParentId).SignatureConfirmation__c;
+//                wrapper.color = colors.get(key) != null ? colors.get(key) : '';
+//            }
+//
+//            attachments.add(wrapper);
+//
+//        }
+//
+//        selectedAttachments = getAttachmentWrappers();
+//    }
 
 //    public void confirm() {
 //        updateChecked('Confirmed');
