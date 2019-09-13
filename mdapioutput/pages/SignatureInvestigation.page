@@ -1,0 +1,575 @@
+<apex:page controller="SampleAuditController" docType="html-5.0" lightningStylesheets="true">
+
+
+    <link rel="stylesheet" type="text/css"
+          href="{!URLFOR($Resource.CTPHARMA__ISVCalendar, '/ISVCalendar/fullcalendar-3.0.0/lib/cupertino/jquery-ui.min.css')}"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.css"/>
+    <script type="text/javascript"
+            src="{!URLFOR($Resource.CTPHARMA__ISVCalendar, '/ISVCalendar/fullcalendar-3.0.0/lib/jquery.min.js')}"></script>
+    <script type="text/javascript"
+            src="{!URLFOR($Resource.CTPHARMA__ISVCalendar, '/ISVCalendar/fullcalendar-3.0.0/lib/jquery-ui.custom.min.js')}"></script>
+
+
+    <script type="text/javascript">
+        var BY_PUBLIC_GROUP = '{!BY_PUBLIC_GROUP}';
+        var BY_ROLE = '{!BY_ROLE}';
+        var BY_ROLE_SUBROLE = '{!BY_ROLE_SUBROLE}';
+        var USER_MODE = '{!USER_MODE}';
+
+
+        function showPicklist(idPart) {
+            var pick = $('[id*="' + idPart + '"]').val()
+            $('.lists').hide();
+            $('.' + pick).show();
+        }
+
+        function showConPicklist(idPart) {
+            var pick = $('[id*="' + idPart + '"]').val();
+            $('.conlists').hide();
+            $('.' + pick).show();
+        }
+
+        function clearUserSearch() {
+            $('[id*="search_string"]').val(null)
+        }
+
+        function clearContactSearch() {
+            $('[id*="search_con_string"]').val(null)
+        }
+
+
+        $(document).ready(function () {
+            transferSelectListHTML();
+            transferSelectedListConHTML();
+            clearEmptyAndShow();
+            afterRefreshActions();
+            afterRefreshActionsC();
+        });
+
+        function clearEmptyAndShow() {
+            showPicklist('selMain');
+        }
+
+        function transferSelectListHTML() {
+            $('[id*="listviews"]').html($('#hiddenUsers').find('select').html())
+            setTimeout(initUserListViewIds, 10)
+        }
+
+        function transferSelectedListConHTML() {
+            $('[id*="listConviews"]').html($('#hiddenContacts').find('select').html())
+            setTimeout(initContactListViewIds, 10)
+
+        }
+
+
+        var ALLSELECTED = false;
+
+        function addAll() {
+            /*if (ALLSELECTED){
+                ALLSELECTED = false;
+                $(".chckbx").prop( "checked", true );
+            } else {
+                ALLSELECTED = true;
+                $(".chckbx").prop( "checked", false );
+            }*/
+
+            addAllUsers();
+        }
+
+        function afterRefreshActions() {
+            //удаляем пустые линии
+            $('[id*="existingUsers"]').find('td:empty').each(function (i, el) {
+                $(el).parent().remove()
+            })
+
+            //подсвечиваем выбранные чекбоксы классом selectedchckbx
+            $(".chckbx").each(function (i, el) {
+                if ($(el).is(':checked')) {
+                    $(el).parent().parent().addClass('selectedchckbx')
+                } else {
+                    $(el).parent().parent().removeClass('selectedchckbx')
+                }
+            })
+            //скрываем выбранные
+            /*$(".chckbx").each(function(i, el){
+                if ($(el).is(':checked')){
+                    $(el).parent().parent().hide()
+                }else{
+                    $(el).parent().parent().show()
+                }
+            })*/
+
+        }
+
+        function afterRefreshActionsC() {
+            //удаляем пустые линии
+            $('[id*="existingUsers"]').find('td:empty').each(function (i, el) {
+                $(el).parent().remove()
+            })
+
+            //подсвечиваем выбранные чекбоксы классом selectedchckbx
+            $(".chckbx").each(function (i, el) {
+                if ($(el).is(':checked')) {
+                    $(el).parent().parent().addClass('selectedchckbx')
+                } else {
+                    $(el).parent().parent().removeClass('selectedchckbx')
+                }
+            })
+            //скрываем выбранные
+            /*$(".chckbx").each(function(i, el){
+                if ($(el).is(':checked')){
+                    $(el).parent().parent().hide()
+                }else{
+                    $(el).parent().parent().show()
+                }
+            })*/
+
+        }
+
+    </script>
+
+    <style type="text/css">
+        .lists {
+            display: none;
+        }
+
+        . {
+            ! CSS_exist
+        }
+
+        {
+            background: hsla(0, 0%, 50%, 0.2)
+        ;
+        }
+
+        label {
+            float: left;
+            width: 150px;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .selectedchckbx {
+            background: #dcebfe;
+        }
+
+        .review {
+            border: 2px solid yellow;
+            border-radius: 7px;
+        }
+
+        .declined {
+            border: 2px solid red;
+            border-radius: 7px;
+        }
+
+        .confirmed {
+            border: 2px solid #2edc1d;
+            border-radius: 7px;
+        }
+
+        div .bPageBlock:first {
+            display: none;
+        }
+    </style>
+
+
+    <apex:form >
+        <apex:pageBlock >
+
+
+            <apex:selectList id="search_object" value="{!SEARCH_OBJECT_MODE}" multiselect="false" size="1"
+                             onchange="rerendsearchPanel()">
+                <apex:selectOptions value="{!searchObjectOptions}"/>
+            </apex:selectList>
+
+            <apex:panelGrid id="searchPanel" columns="2" style="width: 100%;">
+                <!--
+                  <apex:pageBlock title="Contact" >
+                      <apex:pageBlockSection columns="2">
+                          <apex:repeat value="{!fields}" var="f">
+                              <apex:outputField value="{!con[f]}"  />
+                          </apex:repeat>
+                      </apex:pageBlockSection>
+                      <apex:pageBlockButtons location="bottom" >
+                           <apex:commandButton action="{!returnToContact}" title="Return" value="Return" />
+                      </apex:pageBlockButtons>
+                  </apex:pageBlock>
+                  -->
+
+                <apex:pageBlock rendered="{!SEARCH_OBJECT_MODE == 'CONTACT'}">
+                    <script type="text/javascript">
+                        transferSelectListHTML()
+                        transferSelectedListConHTML()
+                        showConPicklist('searchContactOptions')
+                    </script>
+                    <apex:selectList id="searchContactOptions" value="{!SEARCH_CONTACT_MODE}" multiselect="false"
+                                     size="1"
+                                     onchange="showConPicklist( 'searchContactOptions' ); clearContactSearch();">
+                        <apex:selectOptions value="{!searchContactOptions}"/>
+                    </apex:selectList>
+
+                    <select id="listConviews" class="conlists BYLISTVIEW"
+                            onchange="contactFilterChanged(); clearContactSearch();"/>
+
+                    <!-- <p/> --> &nbsp; Search &nbsp;
+                    <apex:inputText id="search_con_string" value="{!search_con_string}"/>
+                    <apex:commandButton value="Find" action="{!initContacts}" reRender="wrappedContacts"
+                                        oncomplete="afterRefreshActionsC();"/>
+
+                    <p/>
+                    <p/>
+                    <p/>
+                    <apex:outputPanel id="wrappedContacts">
+
+                        <apex:pageBlock title="Available Contacts" rendered="{!wrappedContacts.size > 0}">
+
+                            <apex:pageBlockButtons >
+                                <apex:commandButton action="{!addAllC}" value="Select All" reRender="wrappedContacts"
+                                                    oncomplete="afterRefreshActionsC()"/>
+                            </apex:pageBlockButtons>
+
+                            <apex:pageBlockTable value="{!showedwrappedContacts}" var="wrapper">
+                                <apex:column headerValue="Action">
+                                    <apex:inputCheckbox styleClass="chckbx" value="{!wrapper.selected}"/>
+                                    <!--onchange="refreshBottomUsers()" -->
+                                </apex:column>
+                                <apex:repeat value="{!fieldsToShow}" var="field">
+                                    <apex:column value="{!wrapper.contact[field]}"/>
+                                </apex:repeat>
+                            </apex:pageBlockTable>
+
+
+                            <apex:outputPanel >
+                                <apex:commandButton value="Prev" action="{!previousc}" rendered="{!hasPreviousc}"
+                                                    reRender="wrappedContacts"/>
+                                <apex:commandButton value="Next" action="{!nextc}" rendered="{!hasNextc}"
+                                                    reRender="wrappedContacts"/>
+                            </apex:outputPanel>
+
+                        </apex:pageBlock>
+
+                        <apex:pageBlock title="Available Users" rendered="{!wrappedContacts.size == 0}">
+                            <h2><b>No users found.</b></h2>
+                        </apex:pageBlock>
+                    </apex:outputPanel>
+
+
+                </apex:pageBlock>
+
+
+                <apex:pageBlock rendered="{!SEARCH_OBJECT_MODE == 'USER'}">
+                    <script type="text/javascript">
+                        transferSelectListHTML()
+                        transferSelectedListConHTML()
+                    </script>
+                    <!-- select listы-->
+                    <apex:selectList id="selMain" value="{!search_selected}" multiselect="false" size="1"
+                                     onchange="showPicklist( 'selMain' ); clearUserSearch();">
+                        <apex:selectOptions value="{!searchOptions}"/>
+                    </apex:selectList> &nbsp;&nbsp;&nbsp;
+
+                    <!--SELECT ПО ВСЕМ --><!--
+                <select id="byall" class="lists {!BY_ALL}"></select> -->
+
+
+                    <!-- select группы-->
+                    <apex:selectList id="groups" styleClass="lists {!BY_PUBLIC_GROUP}" value="{!selectedGroup}"
+                                     multiselect="false" size="1"
+                                     onchange="getData2group(document.getElementById('groups').value); clearUserSearch();">
+                        <apex:selectOptions value="{!Groups}"/>
+                    </apex:selectList>
+
+                    <!-- select ролей -->
+                    <apex:selectList id="roles" styleClass="lists {!BY_ROLE}" value="{!selectedRole}"
+                                     multiselect="false" size="1"
+                                     onchange="getData2group(document.getElementById('roles').value); clearUserSearch();">
+                        <apex:selectOptions value="{!Roles}"/>
+                    </apex:selectList>
+
+                    <!-- select ролей и подролей -->
+                    <apex:selectList id="subroles" styleClass="lists {!BY_ROLE_SUBROLE}" value="{!selectedRoleSubrole}"
+                                     multiselect="false" size="1"
+                                     onchange="getData2group(document.getElementById('subroles').value); clearUserSearch();">
+                        <apex:selectOptions value="{!Roles}"/>
+                    </apex:selectList>
+
+                    <select id="listviews" class="lists {!USER_MODE} "
+                            onchange="userFilterChanged(); clearUserSearch();"/>
+
+                    <!-- <p/> --> &nbsp; Search &nbsp;
+                    <apex:inputText id="search_string" value="{!search_string}"/>
+                    <apex:commandButton value="Find" action="{!initUsers}" reRender="wrappedUsers"
+                                        oncomplete="afterRefreshActions();"/>
+
+                    <p/>
+                    <p/>
+                    <p/>
+                    <apex:outputPanel id="wrappedUsers">
+
+                        <apex:pageBlock title="Available Users" rendered="{!wrappedUsers.size > 0}">
+
+                            <apex:pageBlockButtons >
+                                <apex:commandButton oncomplete="addAll()" action="{!empty}" value="Select All"
+                                                    reRender="nope"/>
+                            </apex:pageBlockButtons>
+
+                            <apex:pageBlockTable value="{!showedWrappedUsers}" var="wrapper">
+                                <apex:column headerValue="Action">
+                                    <apex:inputCheckbox styleClass="chckbx" value="{!wrapper.selected}"/>
+                                    <!--onchange="refreshBottomUsers()" -->
+                                </apex:column>
+                                <apex:repeat value="{!fieldsToShow}" var="field">
+                                    <apex:column value="{!wrapper.user[field]}"/>
+                                </apex:repeat>
+                            </apex:pageBlockTable>
+
+
+                            <apex:outputPanel >
+                                <apex:commandButton value="Prev" action="{!previous}" rendered="{!hasPrevious}"
+                                                    reRender="wrappedUsers"/>
+                                <apex:commandButton value="Next" action="{!next}" rendered="{!hasNext}"
+                                                    reRender="wrappedUsers"/>
+                            </apex:outputPanel>
+
+                        </apex:pageBlock>
+
+                        <apex:pageBlock title="Available Users" rendered="{!wrappedUsers.size == 0}">
+                            <h2><b>No users found.</b></h2>
+                        </apex:pageBlock>
+                    </apex:outputPanel>
+                </apex:pageBlock>
+
+                <apex:pageBlock >
+                    <apex:pageBlockSection columns="1" id="filterForm">
+                        <apex:selectList label="Object Type:" value="{!filterType}" multiselect="false" size="1"
+                                         id="objectType">
+                            <apex:selectOptions value="{!filterTypes}"/>
+                            <apex:actionSupport event="onchange" reRender="filterForm"/>
+                        </apex:selectList>
+
+                        <apex:input type="date" label="Transfer Date:" value="{!transferDate}"
+                                    rendered="{!filterType == 'Transfer'}"/>
+<!--                        <apex:inputField type="auto" value="{!transferTemplate.Status__c}" label="Status:"-->
+<!--                                         rendered="{!filterType == 'Transfer'}"/>-->
+                        <apex:inputField type="auto" value="{!transferTemplate.RecordTypeId}" label="Record Type:"
+                                         rendered="{!filterType == 'Transfer'}"/>
+
+                        <apex:input type="date" label="Start Date:" value="{!startDate}"
+                                    rendered="{!filterType == 'Activity'}"/>
+                        <apex:input label="End Date:" type="date" value="{!endDate}"
+                                    rendered="{!filterType == 'Activity'}"/>
+<!--                        <apex:inputField type="auto" value="{!acttemplate.CTPHARMA__Status__c}" label="Status:"-->
+<!--                                         rendered="{!filterType == 'Activity'}"/>-->
+                        <apex:inputField type="auto" value="{!acttemplate.RecordTypeId}" label="Record Type:"
+                                         rendered="{!filterType == 'Activity'}"/>
+                        <apex:selectList label="Signature Type:" value="{!signature}" multiselect="false" size="1"
+                                         rendered="{!filterType == 'Activity'}">
+                            <apex:selectOptions value="{!signatures}"/>
+                        </apex:selectList>
+
+                        <apex:outputPanel >
+                            <apex:commandButton action="{!startInReview}" title="Search" value="Search" rerender="block"/>
+                            <apex:commandButton action="{!reset}" title="Reset" value="Reset" rerender="block"/>
+                        </apex:outputPanel>
+                    </apex:pageBlockSection>
+                </apex:pageBlock>
+
+                <apex:actionFunction action="{!setlistViewIdListFromPage}" name="setlistViewIdListFromPage"
+                                     rerender="usersWithChbs" oncomplete="userFilterChanged()">
+                    <apex:param name="listStr" value=""/>
+                </apex:actionFunction>
+
+                <apex:actionFunction action="{!setContactlistViewIdListFromPage}"
+                                     name="setContactlistViewIdListFromPage"
+                                     rerender="contactsWithChbs" oncomplete="contactFilterChanged()">
+                    <apex:param name="listContactStr" value=""/>
+                </apex:actionFunction>
+
+                <apex:actionFunction action="{!onContactChangeFilter}" name="onContactChangeFilter"
+                                     rerender="contactsWithChbs">
+                    <apex:param name="FilterConId_val" value=""/>
+                </apex:actionFunction>
+
+                <apex:actionFunction action="{!onChangeFilter}" name="onChangeFilter" rerender="usersWithChbs">
+                    <apex:param name="FilterId_val" value=""/>
+                </apex:actionFunction>
+
+                <apex:actionFunction action="{!refreshBottomUsers}" name="refreshBottomUsers"
+                                     reRender="wrappedUsers,existingUsers" oncomplete="afterRefreshActions();"/>
+
+                <apex:actionFunction action="{!refreshUpperUsers}" name="refreshUpperUsers"
+                                     reRender="wrappedUsers,existingUsers" oncomplete="afterRefreshActions();"/>
+
+                <apex:actionFunction action="{!addAllUsers}" name="addAllUsers" reRender="wrappedUsers,existingUsers"
+                                     oncomplete="afterRefreshActions();"/>
+
+                <apex:actionFunction action="{!empty}" name="rerendsearchPanel" rerender="searchPanel"/>
+
+            </apex:panelGrid>
+        </apex:pageBlock>
+
+
+        <apex:outputPanel id="block">
+            <apex:pageBlock rendered="{!atts.size > 0}">
+                <apex:pageBlockButtons location="both">
+                    <!-- <apex:commandButton action="{!Confirm}" title="Confirm" value="Confirm" rerender="block"></apex:commandButton> -->
+                    <apex:commandButton action="{!confirm}" title="Confirm" value="Confirm"
+                                        rerender="block"/>
+                    <apex:commandButton action="{!decline}" title="Decline" value="Decline"
+                                        rerender="block"/>
+                </apex:pageBlockButtons>
+
+                <apex:outputPanel rendered="{!atts.size > 0}">
+                    <style>
+                        #atts td, th {
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+
+                        #atts th {
+                            font-size: 14px;
+                        }
+
+                    </style>
+
+
+                    <div>
+
+                        <apex:repeat value="{!atts}" var="w">
+                            <div style=" display: inline-block;overflow: hidden; width: 19%; margin:2px;"
+                                 class="{!w.color}">
+                                <table id="atts" style="width: 100%; ">
+                                    <tr>
+                                        <td width='10px'>
+                                            <apex:inputCheckbox value="{!w.checked}"/>
+                                        </td>
+                                        <td width='100px'>
+                                            <apex:image url="/servlet/servlet.FileDownload?file={!w.att.Id}"
+                                                        style="width: 14em;height: 7em;"/>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <apex:outputPanel rendered="{!filterType == 'Transfer'}">
+                                                <apex:outputText >
+                                                    {!transferMap[w.att.ParentId].TransferDate__c}
+                                                </apex:outputText>
+                                                <apex:outputText >
+                                                    {!userMap[transferMap[w.att.ParentId].ToUserId__c].Name}
+                                                </apex:outputText>
+                                            </apex:outputPanel>
+                                            <apex:outputPanel rendered="{!filterType == 'Activity'}">
+                                                <apex:outputText value="{!mapp[w.att.parentId].ctpharma__startDate__c}"></apex:outputText>
+                                                <br></br>
+                                                <apex:outputText value="{!mapp[w.att.parentId].Name}"></apex:outputText>
+
+                                                <apex:outputPanel rendered="{!wrappedUsers.size > 0}">
+                                                    <br></br> User:
+                                                    <apex:outputText value="{!usermapp[mapp[w.att.parentId].OwnerId].Name} "
+                                                            style="font-weight: bold;"/>
+                                                </apex:outputPanel>
+
+                                                <apex:outputPanel rendered="{!w.att.parentId != null}">
+                                                    <apex:outputPanel rendered="{!mapp[w.att.parentId].CTPHARMA__ContactId__c != null}">
+                                                        <br></br>Contact:
+                                                        <apex:outputText value="{!contactmapp[mapp[w.att.parentId].CTPHARMA__ContactId__c].Name}"
+                                                                style="font-weight: bold;"/>
+                                                    </apex:outputPanel>
+                                                </apex:outputPanel>
+                                            </apex:outputPanel>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </apex:repeat>
+
+                    </div>
+                </apex:outputPanel>
+            </apex:pageBlock>
+
+
+            <apex:pageBlock rendered="{!atts.size == 0}">
+                No records found.
+            </apex:pageBlock>
+        </apex:outputPanel>
+
+
+    </apex:form>
+    <div id="hiddenUsers" style="display: none">
+        <apex:ListViews type="User"/>
+    </div>
+    <div id="hiddenContacts" style="display: none">
+        <apex:ListViews type="Contact"/>
+    </div>
+
+    <script type="text/javascript">
+        function contactFilterChanged() {
+            const filterId = $('[id*="listConviews"]').val();
+            sendContactFilterId(filterId)
+        }
+
+        function sendContactFilterId(filterId) {
+            onContactChangeFilter(filterId);
+        }
+
+        function initContactListViewIds() {
+            let listContactStr = '';
+
+            if ($('#hiddenContacts option')) {
+                $('#hiddenContacts option').each(function (i, o) {
+                    console.log(o.value)
+                    listContactStr += o.value + ',';
+                });
+            }
+            console.log('listContactStr: ' + listContactStr);
+
+            setContactlistViewIdListFromPage(listContactStr);
+        }
+
+
+        function userFilterChanged() {
+            const filterId = $('[id*="listviews"]').val();
+            sendFilterId(filterId)
+        }
+
+        function sendFilterId(filterIdval) {
+            console.log('filterIdval : ' + filterIdval);
+
+            //если filterIdval не константа с контроллера - то идём дальше, иначе - в контроллер!
+            onChangeFilter(filterIdval);
+        }
+
+        function initUserListViewIds() {
+            let listStr = '';
+
+            if ($('#hiddenUsers option')) {
+                $('#hiddenUsers option').each(function (i, o) {
+                    console.log(o.value)
+                    listStr += o.value + ',';
+                });
+            }
+            console.log('listStr: ' + listStr);
+
+            setlistViewIdListFromPage(listStr);
+        }
+
+        function hideSomething() {
+            const objectType = $('[id*="objectType"]').val();
+            const transferFilters = $("#transferFilters");
+            const activityFilters = $("#activityFilters");
+            console.log(transferFilters);
+            if (objectType === 'Activity') {
+                transferFilters.hide();
+                activityFilters.show();
+            } else {
+                activityFilters.hide();
+                transferFilters.show();
+            }
+        }
+    </script>
+</apex:page>
