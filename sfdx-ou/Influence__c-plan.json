@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Influence__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Influence__cs.json"
+        ]
+    }
+]
