@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "clm__Application__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "clm__Application__cs.json"
+        ]
+    }
+]

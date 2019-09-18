@@ -45,6 +45,52 @@
             "clm__IsSlideViewsTrackingEnabled__c": true,
             "clm__IsTotalDurationTrackingEnabled__c": true,
             "clm__Version__c": 5.6
+        },
+		{
+            "attributes": {
+                "type": "clm__Application__c",
+                "referenceId": "clm__Application__cRef3"
+            },
+            "Name": "Cosmetic Fillers",
+            "clm__IsActive__c": true,
+            "clm__IsAvailableForRD__c": true,
+            "clm__DeviceOrientation__c": "Horizontal",
+            "clm__IsFeedbackCommentsEnabled__c": true,
+            "clm__ForcedLoadDate__c": "2019-07-15",
+            "clm__ScreenshotID__c": "a0i2E00000BbC0eQAF",
+            "clm__SlideEffect__c": "Horizontal Swipe",
+            "clm__IsSlideReorderEnabled__c": false,
+            "clm__SwipeGestureType__c": "Two finger swipe",
+            "clm__IsSlideClicksTrackingEnabled__c": true,
+            "clm__IsSlideDurationTrackingEnabled__c": true,
+            "clm__IsSlideLikesTrackingEnabled__c": true,
+            "clm__IsSlideNavigationTrackingEnabled__c": true,
+            "clm__IsSlideViewsTrackingEnabled__c": true,
+            "clm__IsTotalDurationTrackingEnabled__c": true,
+            "clm__Version__c": 1.1
+        },
+		{
+            "attributes": {
+                "type": "clm__Application__c",
+                "referenceId": "clm__Application__cRef4"
+            },
+            "Name": "Aesthetics",
+            "clm__IsActive__c": true,
+            "clm__IsAvailableForRD__c": true,
+            "clm__DeviceOrientation__c": "Horizontal",
+            "clm__IsFeedbackCommentsEnabled__c": true,
+            "clm__ForcedLoadDate__c": "2019-07-15",
+            "clm__ScreenshotID__c": "a0i2E00000BbC0jQAF",
+            "clm__SlideEffect__c": "Horizontal Swipe",
+            "clm__IsSlideReorderEnabled__c": false,
+            "clm__SwipeGestureType__c": "Two finger swipe",
+            "clm__IsSlideClicksTrackingEnabled__c": true,
+            "clm__IsSlideDurationTrackingEnabled__c": true,
+            "clm__IsSlideLikesTrackingEnabled__c": true,
+            "clm__IsSlideNavigationTrackingEnabled__c": true,
+            "clm__IsSlideViewsTrackingEnabled__c": true,
+            "clm__IsTotalDurationTrackingEnabled__c": true,
+            "clm__Version__c": 1.1
         }
     ]
 }
