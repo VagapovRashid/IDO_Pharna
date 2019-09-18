@@ -126,5 +126,13 @@
         "files": [
             "CORE_AssortmentLineItem__c.json"
         ]
+    },
+    {
+        "sobject": "Influence__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Influence__c.json"
+        ]
     }
 ]

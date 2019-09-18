@@ -540,6 +540,23 @@
             "clm__SlideId__c": "@clm__Slide__cRef25",
             "clm__Tooltip__c": false,
             "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef33"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__c": "@clm__Application__cRef4",
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide4\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMkUAL/sliders/a0i2E00000BbC0mQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__c": "@clm__Placeholder__cRef24",
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__c": {
+                "attributes": "@clm__Slide__cRef26",
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
         }
     ]
 }
