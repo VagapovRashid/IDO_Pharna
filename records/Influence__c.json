@@ -34,7 +34,7 @@
             },
             "ContactId__c": "@ContactRef2",
             "Influence_Level__c": "High",
-            "OpinionLeaderId__r": "@ContactRef1"
+            "OpinionLeaderId__c": "@ContactRef1"
         },
         {
             "attributes": {
