@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "clm__Slide__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "clm__Slide__cs.json"
+        ]
+    }
+]

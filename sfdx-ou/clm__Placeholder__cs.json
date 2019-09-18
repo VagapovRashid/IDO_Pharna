@@ -1,0 +1,56 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef1"
+            },
+            "Name": "Generic placeholder",
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMkUAL"
+                },
+                "Name": "Aesthetics"
+            },
+            "clm__Height__c": 100,
+            "clm__Position__c": 1,
+            "clm__TemplateId__r": {
+                "attributes": {
+                    "type": "clm__Template__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Template__c/a0k2E00000BBlsLQAT"
+                },
+                "Name": "PPT generic template"
+            },
+            "clm__Width__c": 200
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef2"
+            },
+            "Name": "Generic placeholder",
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Height__c": 100,
+            "clm__Position__c": 1,
+            "clm__TemplateId__r": {
+                "attributes": {
+                    "type": "clm__Template__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Template__c/a0k2E00000BBlsGQAT"
+                },
+                "Name": "PPT generic template"
+            },
+            "clm__Width__c": 200
+        }
+    ]
+}

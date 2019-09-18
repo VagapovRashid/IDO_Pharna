@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "clm__Widget__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "clm__Widget__cs.json"
+        ]
+    }
+]

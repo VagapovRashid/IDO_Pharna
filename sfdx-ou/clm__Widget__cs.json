@@ -1,0 +1,310 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef1"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMkUAL"
+                },
+                "Name": "Aesthetics"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide1\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMkUAL/sliders/a0i2E00000BbC0jQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeWQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0jQAF"
+                },
+                "Name": "Slide1"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef2"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMkUAL"
+                },
+                "Name": "Aesthetics"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide2\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMkUAL/sliders/a0i2E00000BbC0kQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeWQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0kQAF"
+                },
+                "Name": "Slide2"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef3"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMkUAL"
+                },
+                "Name": "Aesthetics"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide3\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMkUAL/sliders/a0i2E00000BbC0lQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeWQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0lQAF"
+                },
+                "Name": "Slide3"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef4"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMkUAL"
+                },
+                "Name": "Aesthetics"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide4\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMkUAL/sliders/a0i2E00000BbC0mQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeWQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0mQAF"
+                },
+                "Name": "Slide4"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef5"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide1\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMfUAL/sliders/a0i2E00000BbC0eQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeRQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0eQAF"
+                },
+                "Name": "Slide1"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef6"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide2\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMfUAL/sliders/a0i2E00000BbC0fQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeRQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0fQAF"
+                },
+                "Name": "Slide2"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef7"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide3\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMfUAL/sliders/a0i2E00000BbC0gQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeRQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0gQAF"
+                },
+                "Name": "Slide3"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef8"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide4\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMfUAL/sliders/a0i2E00000BbC0hQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeRQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0hQAF"
+                },
+                "Name": "Slide4"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        },
+        {
+            "attributes": {
+                "type": "clm__Widget__c",
+                "referenceId": "clm__Widget__cRef9"
+            },
+            "clm__IsActive__c": true,
+            "clm__ApplicationId__r": {
+                "attributes": {
+                    "type": "clm__Application__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Application__c/a0Y2E00000YQhMfUAL"
+                },
+                "Name": "Cosmetic Fillers"
+            },
+            "clm__Autoplay__c": false,
+            "clm__Code__c": "<img alt=\"Slide5\" src=\"https://www.ctclm.com/preview/ppt/00D2E0000013Ef9UAE/a0Y2E00000YQhMfUAL/sliders/a0i2E00000BbC0iQAF.png\" style=\"width:100%; height:100%;\"/>",
+            "clm__CustomStyle__c": false,
+            "clm__PlaceholderId__r": {
+                "attributes": {
+                    "type": "clm__Placeholder__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Placeholder__c/a0h2E00000UfWeRQAV"
+                },
+                "Name": "Generic placeholder"
+            },
+            "clm__ShowLegend__c": false,
+            "clm__SlideId__r": {
+                "attributes": {
+                    "type": "clm__Slide__c",
+                    "url": "/services/data/v46.0/sobjects/clm__Slide__c/a0i2E00000BbC0iQAF"
+                },
+                "Name": "Slide5"
+            },
+            "clm__Tooltip__c": false,
+            "clm__Type__c": "Rich Text"
+        }
+    ]
+}

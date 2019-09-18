@@ -320,6 +320,34 @@
             "clm__Position__c": 2,
             "clm__Width__c": 200,
             "clm__ApplicationId__c": "@clm__Application__cRef2"
+        },
+		{
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef24"
+            },
+            "Name": "Generic placeholder",
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__ApplicationId__c": "@clm__Application__cRef4",
+            "clm__Height__c": 100,
+            "clm__Position__c": 1,
+            "clm__TemplateId__r": "@clm__Template__cRef22",
+            "clm__Width__c": 200
+        },
+        {
+            "attributes": {
+                "type": "clm__Placeholder__c",
+                "referenceId": "clm__Placeholder__cRef25"
+            },
+            "Name": "Generic placeholder",
+            "clm__IsActive__c": true,
+            "clm__Type__c": "Rich Text",
+            "clm__ApplicationId__c": "@clm__Application__cRef3",
+            "clm__Height__c": 100,
+            "clm__Position__c": 1,
+            "clm__TemplateId__r": "@clm__Template__cRef21",
+            "clm__Width__c": 200
         }
     ]
 }
