@@ -30,15 +30,6 @@
         {
             "attributes": {
                 "type": "Influence__c",
-                "referenceId": "Influence__cRef4"
-            },
-            "ContactId__c": "@ContactRef2",
-            "Influence_Level__c": "High",
-            "OpinionLeaderId__c": "@ContactRef1"
-        },
-        {
-            "attributes": {
-                "type": "Influence__c",
                 "referenceId": "Influence__cRef5"
             },
             "AccountId__c": "@AccountRef1",
