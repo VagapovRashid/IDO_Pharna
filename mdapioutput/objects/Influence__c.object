@@ -170,15 +170,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Contact</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Contact.Account.Id</field>
-                <operation>equals</operation>
-                <valueField>$Source.AccountId__c</valueField>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Influencers</relationshipLabel>
         <relationshipName>Influences</relationshipName>
