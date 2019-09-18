@@ -122,6 +122,7 @@
         <members>CORE_ActionPlan__c</members>
         <members>CORE_Action__c</members>
         <members>CORE_AssortmentLineItem__c</members>
+        <members>Influence__c</members>
         <members>InternalURLSettings__mdt</members>
         <members>LicenseType__c</members>
         <members>License__c</members>

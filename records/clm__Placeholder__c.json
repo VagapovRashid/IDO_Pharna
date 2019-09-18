@@ -332,7 +332,7 @@
             "clm__ApplicationId__c": "@clm__Application__cRef4",
             "clm__Height__c": 100,
             "clm__Position__c": 1,
-            "clm__TemplateId__r": "@clm__Template__cRef22",
+            "clm__TemplateId__с": "@clm__Template__cRef22",
             "clm__Width__c": 200
         },
         {
@@ -346,7 +346,7 @@
             "clm__ApplicationId__c": "@clm__Application__cRef3",
             "clm__Height__c": 100,
             "clm__Position__c": 1,
-            "clm__TemplateId__r": "@clm__Template__cRef21",
+            "clm__TemplateId__с": "@clm__Template__cRef21",
             "clm__Width__c": 200
         }
     ]
