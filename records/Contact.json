@@ -25,6 +25,7 @@
             "Birthdate": "1978-07-07",
             "CTPHARMA__DivisionAlphaCategory__c": "Category 1",
             "CTPHARMA__DivisionBetaCategory__c": "Category 2",
+            "EinsteinAnaliticsId__c": "einstein",
             "AccountId": "@AccountRef1"
         }
     ]

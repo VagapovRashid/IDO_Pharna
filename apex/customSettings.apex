@@ -40,7 +40,7 @@ newApp.clm__PUSHHUBName__c = 'appstore.ctmobile';
 newApp.clm__ReferenceObjectAPIName__c = 'CTPHARMA__Reference__c';
 newApp.clm__IsWeekSwitchShowed__c = true;
 newApp.clm__EnableStartFinish__c = true;
-newApp.clm__Theme__c = 'rgb(42, 105, 149)';
+newApp.clm__Theme__c = 'rgb(108, 94, 145)';
 newApp.clm__UpdateDateFields__c = false;
 newApp.clm__VisibleHourRange__c = '(9,19)';
 newApp.clm__WeekFormat__c = 'mo,mo,fr';
@@ -183,3 +183,32 @@ activityCustomizations[3].clm__isApplicationLaunchEnabled__c = false;
 activityCustomizations[3].clm__TabLabel__c = 'Consumables';
 
 upsert activityCustomizations;
+
+List<clm__MobileCustomization__c> mobileCustomizations = new List<clm__MobileCustomization__c>();
+List<clm__MobileCustomization__c> newMobileCustomizations = [SELECT Name, clm__Colors__c, clm__CriteriaField__c, clm__Object__c, clm__OrgProfileId__c, clm__Values__c FROM clm__MobileCustomization__c WHERE Name = 'Influence__c'];
+
+if(newMobileCustomizations.size() == 0){
+    mobileCustomizations.add(new clm__MobileCustomization__c());
+} else{
+    mobileCustomizations.add(newMobileCustomizations[0]);
+}
+mobileCustomizations[0].Name = 'Influence__c';
+mobileCustomizations[0].clm__Colors__c = 'rgb(35,219,131);rgb(222,18,79);rgb(29,63,240);rgb(232,224,30)';
+mobileCustomizations[0].clm__CriteriaField__c = 'Type__c';
+mobileCustomizations[0].clm__Object__c = 'Influence__c';
+mobileCustomizations[0].clm__Values__c = 'Owns,Supply,Research,KOL influence';
+
+newMobileCustomizations = [SELECT Name, clm__Colors__c, clm__CriteriaField__c, clm__Object__c, clm__OrgProfileId__c, clm__Values__c FROM clm__MobileCustomization__c WHERE Name = 'CTPHARMA__Activity__c'];
+
+if(newMobileCustomizations.size() == 0){
+    mobileCustomizations.add(new clm__MobileCustomization__c());
+} else{
+    mobileCustomizations.add(newMobileCustomizations[0]);
+}
+mobileCustomizations[1].Name = 'CTPHARMA__Activity__c';
+mobileCustomizations[1].clm__Colors__c = 'rgb(230,230,230);rgb(245,250,0);rgb(0,255,10);rgb(255,0,0)';
+mobileCustomizations[1].clm__CriteriaField__c = 'CTPHARMA__Status__c';
+mobileCustomizations[1].clm__Object__c = 'CTPHARMA__Activity__c';
+mobileCustomizations[1].clm__Values__c = 'Planned,In Progress,Finished,Canceled';
+
+upsert mobileCustomizations;

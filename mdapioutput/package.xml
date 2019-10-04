@@ -38,6 +38,7 @@
         <members>Account.PHARMA_Y_1_Plan__c</members>
         <members>Contact.ContactId__c</members>
         <members>Contact.Degree__c</members>
+        <members>Contact.EinsteinAnaliticsId__c</members>
         <members>Contact.License_Number__c</members>
 		<members>CTPHARMA__Activity__c.AddressId__c</members>
 		<members>CTPHARMA__Activity__c.Audit__c</members>
