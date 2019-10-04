@@ -6,7 +6,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>General</label>
+        <label>Call Details</label>
         <layoutColumns>
             <layoutItems>
                 <emptySpace>true</emptySpace>
@@ -20,10 +20,6 @@
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>RecordTypeId</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>CTPHARMA__AccountId__c</field>
@@ -44,26 +40,9 @@
                 <behavior>Required</behavior>
                 <field>CTPHARMA__Status__c</field>
             </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Description</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>StartRDLink__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CTPHARMA__Result__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CTPHARMA__Description__c</field>
+                <field>CTPHARMA__Objective__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -84,7 +63,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Meeting Insights</label>
+        <label>Call Report</label>
         <layoutColumns>
             <layoutItems>
                 <emptySpace>true</emptySpace>
@@ -96,7 +75,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Results</label>
+        <label>Detailing Insights</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -104,14 +83,52 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Number_of_prescriptions__c</field>
+                <field>Partialy_Controled_asthma_number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Partialy_Controled_asthma_number__c</field>
+                <field>Uncontroled_asthma_number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <emptySpace>true</emptySpace>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Number_of_prescriptions__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Call Report</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CTPHARMA__Result__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Next Call</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CTPHARMA__NextCallDate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CTPHARMA__NextCallObjective__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns/>
+        <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -156,6 +173,13 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>CTPHARMA__AccountId__c</fields>
+        <fields>CTPHARMA__ContactId__c</fields>
+        <fields>CTPHARMA__StartDate__c</fields>
+        <fields>CTPHARMA__Status__c</fields>
+        <fields>CTPHARMA__Objective__c</fields>
+    </miniLayout>
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>CTPHARMA__ActivityData__c.CTPHARMA__ActivityId__c</relatedList>
@@ -166,7 +190,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2000000NEd58</masterLabel>
+        <masterLabel>00h4T000000OQ3q</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
