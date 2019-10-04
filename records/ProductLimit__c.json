@@ -1,0 +1,100 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef1"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 10,
+            "UnitsPerDay__c": 20,
+            "Limit_Units_per_Period__c": 300,
+            "UnitsPerYear__c": 250,
+            "EndDate__c": "2021-07-01",
+            "StartDate__c": "2019-07-03",
+            "ProductId__c": "@CTPHARMA__Product__cRef6",
+            "IsTransferred__c": false
+        },
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef2"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 10,
+            "UnitsPerDay__c": 20,
+            "Limit_Units_per_Period__c": 300,
+            "UnitsPerYear__c": 100,
+            "EndDate__c": "2020-06-10",
+            "StartDate__c": "2019-06-26",
+            "ProductId__c": "@CTPHARMA__Product__cRef5",
+            "IsTransferred__c": false
+        },
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef3"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 17,
+            "UnitsPerDay__c": 5,
+            "Limit_Units_per_Period__c": 20,
+            "UnitsPerYear__c": 55,
+            "EndDate__c": "2019-04-29",
+            "StartDate__c": "2019-04-02",
+            "ProductId__c": "@CTPHARMA__Product__cRef2",
+            "IsTransferred__c": false
+        },
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef4"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 10,
+            "UnitsPerDay__c": 40,
+            "Limit_Units_per_Period__c": 400,
+            "UnitsPerYear__c": 300,
+            "EndDate__c": "2020-04-16",
+            "StartDate__c": "2019-04-16",
+            "ProductId__c": "@CTPHARMA__Product__cRef3",
+            "IsTransferred__c": false
+        },
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef5"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 11,
+            "UnitsPerDay__c": 23,
+            "Limit_Units_per_Period__c": 150,
+            "UnitsPerYear__c": 150,
+            "EndDate__c": "2019-04-28",
+            "StartDate__c": "2019-04-01",
+            "ProductId__c": "@CTPHARMA__Product__cRef7",
+            "IsTransferred__c": false
+        },
+        {
+            "attributes": {
+                "type": "ProductLimit__c",
+                "referenceId": "ProductLimit__cRef6"
+            },
+            "IsDeliveryAllowed__c": false,
+            "LimitType__c": "Product",
+            "UnitsPerActivity__c": 10,
+            "UnitsPerDay__c": 20,
+            "Limit_Units_per_Period__c": 300,
+            "UnitsPerYear__c": 300,
+            "EndDate__c": "2020-05-07",
+            "StartDate__c": "2019-05-07",
+            "ProductId__c": "@CTPHARMA__Product__cRef1",
+            "IsTransferred__c": false
+        }
+    ]
+}

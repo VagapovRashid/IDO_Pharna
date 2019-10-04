@@ -134,5 +134,13 @@
         "files": [
             "Influence__c.json"
         ]
+    },
+    {
+        "sobject": "ProductLimit__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProductLimit__c.json"
+        ]
     }
 ]
