@@ -98,7 +98,7 @@ if(newActivityCustomizations.size() == 0){
     activityCustomizations.add(newActivityCustomizations[0]);
 }
 activityCustomizations[0].Name = 'Add Samples';
-activityCustomizations[0].clm__CustomFieldsLayout__c = 'PharmaProductId__c,Quantity__c';
+activityCustomizations[0].clm__CustomFieldsLayout__c = 'PharmaProductId__c,StoreProductId__c,Quantity__c';
 activityCustomizations[0].clm__DataObjectName__c = 'SampleDrop__c';
 activityCustomizations[0].clm__IsDrilldownEnabled__c = true;
 activityCustomizations[0].clm__IsRecordAdditionAllowed__c = true;
@@ -108,8 +108,8 @@ activityCustomizations[0].clm__LookupFieldAPI__c = 'ActivityId__c';
 activityCustomizations[0].clm__OrgProfileId__c = UserInfo.getOrganizationId();
 activityCustomizations[0].clm__ParentObject__c = 'CTPHARMA__Activity__c';
 activityCustomizations[0].clm__ParentObjectRecordType__c = 'Visit';
-activityCustomizations[0].clm__ReadonlyAttribute__c = 'false,false';
-activityCustomizations[0].clm__RequiredAttribute__c = 'false,false';
+activityCustomizations[0].clm__ReadonlyAttribute__c = 'false,false,false';
+activityCustomizations[0].clm__RequiredAttribute__c = 'false,false,false';
 activityCustomizations[0].clm__isApplicationLaunchEnabled__c = false;
 activityCustomizations[0].clm__TabLabel__c = 'Add Samples';
 
