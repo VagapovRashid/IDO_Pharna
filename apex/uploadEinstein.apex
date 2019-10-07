@@ -17,9 +17,8 @@ insert contentVersion;
 
 contentVersion = [SELECT Id, ContentDocumentId FROM ContentVersion WHERE Id = :contentVersion.Id];
 
-ContentWorkspaceDoc workspaceDoc = new ContentWorkspaceDoc();
 ContentWorkspaceDoc doc = new ContentWorkspaceDoc();
 doc.ContentDocumentId = contentVersion.ContentDocumentId;
 doc.ContentWorkspaceId = contentWorkspace.Id;
 
-insert workspaceDoc;
+insert doc;
