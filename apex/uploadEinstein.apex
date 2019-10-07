@@ -1,4 +1,4 @@
-ContentWorkspace contentWorkspace = new ContentWorkspace(Name='CT Library');
+ContentWorkspace contentWorkspace = [SELECT Id FROM ContentWorkspace WHERE Name = 'Product Logo'];
 
 Http h = new Http();
 HttpRequest req = new HttpRequest();
