@@ -142,5 +142,29 @@
         "files": [
             "ProductLimit__c.json"
         ]
+    },
+    {
+        "sobject": "Lot__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Lot__c.json"
+        ]
+    },
+    {
+        "sobject": "Store__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Store__c.json"
+        ]
+    },
+    {
+        "sobject": "StoreProduct__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "StoreProduct__c.json"
+        ]
     }
 ]

@@ -1,0 +1,192 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef1"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef2"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef3"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef4"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef5"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef6"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef7"
+            },
+            "IsValidated__c": true,
+            "ValidationDate__c": "2019-04-18"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef8"
+            },
+            "IsValidated__c": true,
+            "ValidationDate__c": "2019-04-18"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef9"
+            },
+            "IsValidated__c": true,
+            "ValidationDate__c": "2019-04-17"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef10"
+            },
+            "IsValidated__c": false,
+            "ValidationDate__c": "2019-04-17"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef11"
+            },
+            "IsValidated__c": true,
+            "ValidationDate__c": "2019-04-18"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef12"
+            },
+            "IsValidated__c": true,
+            "ValidationDate__c": "2019-04-18"
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef13"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef14"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef15"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef16"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef17"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef18"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef19"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef20"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef21"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef22"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef23"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef24"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef25"
+            },
+            "IsValidated__c": false
+        },
+        {
+            "attributes": {
+                "type": "Store__c",
+                "referenceId": "Store__cRef26"
+            },
+            "IsValidated__c": false
+        }
+    ]
+}

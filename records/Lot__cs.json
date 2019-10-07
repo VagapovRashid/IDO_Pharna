@@ -1,0 +1,144 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef1"
+            },
+            "LotNumber__c": "643359"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef2"
+            },
+            "LotNumber__c": "772333"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef3"
+            },
+            "LotNumber__c": "134431"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef4"
+            },
+            "LotNumber__c": "8409205"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef5"
+            },
+            "LotNumber__c": "599827"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef6"
+            },
+            "LotNumber__c": "456445"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef7"
+            },
+            "LotNumber__c": "213424"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef8"
+            },
+            "LotNumber__c": "50204"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef9"
+            },
+            "LotNumber__c": "667623"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef10"
+            },
+            "LotNumber__c": "49814"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef11"
+            },
+            "LotNumber__c": "71114"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef12"
+            },
+            "LotNumber__c": "87230"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef13"
+            },
+            "LotNumber__c": "49991"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef14"
+            },
+            "LotNumber__c": "22228"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef15"
+            },
+            "LotNumber__c": "912314"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef16"
+            },
+            "LotNumber__c": "889024"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef17"
+            },
+            "LotNumber__c": "120912"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef18"
+            },
+            "LotNumber__c": "5552313"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef19"
+            },
+            "LotNumber__c": "90982"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "Lot__cRef20"
+            },
+            "LotNumber__c": "101231"
+        }
+    ]
+}

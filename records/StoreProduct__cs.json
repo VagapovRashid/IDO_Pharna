@@ -1,0 +1,186 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef1"
+            },
+            "ExpirationDate__c": "2020-05-06",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef3",
+            "Quantity__c": 26,
+            "LotId__c":  "@Lot__cRef1",
+            "StoreId__c":  "@Store__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef2"
+            },
+            "ExpirationDate__c": "2019-04-11",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef3",
+            "Quantity__c": 78,
+            "LotId__c":  "@Lot__cRef2",
+            "StoreId__c":  "@Store__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef3"
+            },
+            "ExpirationDate__c": "2022-04-01",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c":  "@CTPHARMA__Product__cRef5",
+            "Quantity__c": 17,
+            "LotId__c":  "@Lot__cRef3",
+            "StoreId__c":  "@Store__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef4"
+            },
+            "ExpirationDate__c": "2019-05-09",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c":  "@CTPHARMA__Product__cRef7",
+            "Quantity__c": 182,
+            "LotId__c":  "@Lot__cRef4",
+            "StoreId__c":  "@Store__cRef4"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef5"
+            },
+            "ExpirationDate__c": "2022-04-11",
+            "PharmaProductId__c":  "@CTPHARMA__Product__cRef7",
+            "Quantity__c": 327,
+            "LotId__c":  "@Lot__cRef5",
+            "StoreId__c":  "@Store__cRef5"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef6"
+            },
+            "ExpirationDate__c": "2020-04-10",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c":  "@CTPHARMA__Product__cRef1",
+            "Quantity__c": 22,
+            "LotId__c":  "@Lot__cRef6",
+            "StoreId__c":  "@Store__cRef6"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef7"
+            },
+            "ExpirationDate__c": "2021-04-12",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef1",
+            "Quantity__c": 168,
+            "LotId__c":  "@Lot__cRef7",
+            "StoreId__c":  "@Store__cRef7"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef8"
+            },
+            "ExpirationDate__c": "2019-08-22",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef5",
+            "Quantity__c": 34,
+            "LotId__c":  "@Lot__cRef8",
+            "StoreId__c":  "@Store__cRef8"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef9"
+            },
+            "ExpirationDate__c": "2020-05-22",
+            "Origin__c": "Transfer",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef3",
+            "Quantity__c": -3615,
+            "LotId__c":  "@Lot__cRef9",
+            "StoreId__c":  "@Store__cRef9"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef10"
+            },
+            "ActualQuantity__c": 150,
+            "ExpirationDate__c": "2020-06-24",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef5",
+            "Quantity__c": 128,
+            "LotId__c":  "@Lot__cRef10",
+            "StoreId__c":  "@Store__cRef10"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef11"
+            },
+            "ActualQuantity__c": 200,
+            "ExpirationDate__c": "2020-09-16",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef6",
+            "Quantity__c": 112,
+            "LotId__c":  "@Lot__cRef11",
+            "StoreId__c":  "@Store__cRef11"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef12"
+            },
+            "Origin__c": "Transfer",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef5",
+            "Quantity__c": 7,
+            "LotId__c":  "@Lot__cRef12",
+            "StoreId__c":  "@Store__cRef12"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef13"
+            },
+            "ActualQuantity__c": 150,
+            "ExpirationDate__c": "2020-09-16",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef5",
+            "Quantity__c": 79,
+            "LotId__c":  "@Lot__cRef13",
+            "StoreId__c":  "@Store__cRef13"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef14"
+            },
+            "ActualQuantity__c": 150,
+            "ExpirationDate__c": "2020-06-18",
+            "Origin__c": "Shipment",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef6",
+            "Quantity__c": 150,
+            "LotId__c":  "@Lot__cRef14",
+            "StoreId__c":  "@Store__cRef14"
+        },
+        {
+            "attributes": {
+                "type": "StoreProduct__c",
+                "referenceId": "StoreProduct__cRef15"
+            },
+            "ExpirationDate__c": "2022-05-18",
+            "Origin__c": "Transfer",
+            "PharmaProductId__c": "@CTPHARMA__Product__cRef1",
+            "Quantity__c": 505,
+            "LotId__c":  "@Lot__cRef15",
+            "StoreId__c":  "@Store__cRef15"
+        }
+    ]
+}
