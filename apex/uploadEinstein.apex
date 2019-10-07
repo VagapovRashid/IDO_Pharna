@@ -15,7 +15,7 @@ contentVersion.PathOnClient = 'einstein.png';
 
 insert contentVersion;
 
-contentVersion = [SELECT Id, ContentDocumentId FROM ContentVersion WHERE Id = :contentVersion];
+contentVersion = [SELECT Id, ContentDocumentId FROM ContentVersion WHERE Id = :contentVersion.Id];
 
 ContentWorkspaceDoc workspaceDoc = new ContentWorkspaceDoc();
 ContentWorkspaceDoc doc = new ContentWorkspaceDoc();
