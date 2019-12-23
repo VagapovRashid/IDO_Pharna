@@ -1,4 +1,12 @@
 [
+	{
+        "sobject": "clm__Application__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Application__c.json"
+        ]
+    },
     {
         "sobject": "Account",
         "saveRefs": true,
