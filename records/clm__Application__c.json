@@ -22,7 +22,7 @@
             "clm__IsSlideViewsTrackingEnabled__c": true,
             "clm__IsTotalDurationTrackingEnabled__c": true,
             "clm__Version__c": 6.9,
-			"RecordTypeId": Schema.SObjectType.Account.getRecordTypeInfosByName().get('Development').getDeveloperName();
+			"RecordTypeId": "Schema.SObjectType.Account.getRecordTypeInfosByName().get('Development').getDeveloperName();"
         },
         {
             "attributes": {
