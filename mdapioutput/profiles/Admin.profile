@@ -14,7 +14,7 @@
     </layoutAssignments>
 	<recordTypeVisibilities>
         <default>true</default>
-        <recordType>clm__Application__c.Application</recordType>
+        <recordType>clm__Application__c.PlainApplication</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
 </Profile>
