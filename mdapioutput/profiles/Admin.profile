@@ -12,9 +12,4 @@
         <layout>Account-Mobile Hospital Layout</layout>
         <recordType>Account.Mobile_Hospital</recordType>
     </layoutAssignments>
-	<recordTypeVisibilities>
-        <default>true</default>
-        <recordType>clm__Application__c.Application</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
 </Profile>
