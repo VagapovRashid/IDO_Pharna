@@ -14,7 +14,7 @@
     </layoutAssignments>
 	<recordTypeVisibilities>
         <default>true</default>
-        <recordType>Account.Mobile_Hospital</recordType>
+        <recordType>clm__Application__c.clm__Application</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
 </Profile>
