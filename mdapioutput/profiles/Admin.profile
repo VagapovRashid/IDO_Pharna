@@ -12,4 +12,9 @@
         <layout>Account-Mobile Hospital Layout</layout>
         <recordType>Account.Mobile_Hospital</recordType>
     </layoutAssignments>
+	<recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Mobile_Hospital</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 </Profile>
