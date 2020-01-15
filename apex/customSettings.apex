@@ -88,6 +88,19 @@ settings[2].clm__RequiredAttribute__c = 'true,true,true';
 settings[2].clm__SObject__c = 'CTPHARMA__Activity__c';
 settings[2].Name = 'New Audit';
 
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'Sample Drop'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[3].clm__Action__c = 'New';
+settings[3].clm__Fields__c = 'ReferenceId__c,PharmaProductId__c,StoreProductId__c,Quantity__c';
+settings[3].clm__RecordtypeDeveloperName__c = 'Sample_Drop';
+settings[3].clm__RequiredAttribute__c = 'true,true,true,true';
+settings[3].clm__SObject__c = 'SampleDrop__c';
+settings[3].Name = 'Sample Drop';
+
 upsert settings;
 
 List<clm__MobileActivityDataCustomization__c> activityCustomizations = new List<clm__MobileActivityDataCustomization__c>();
