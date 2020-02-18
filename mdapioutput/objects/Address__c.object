@@ -215,6 +215,5 @@
         <searchResultsAdditionalFields>Address__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
